@@ -185,7 +185,7 @@ const Programs = () => {
           return (
             <button
               onClick={() => setDatas(item?.name)}
-              className="text-black text-[10px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
+              className="text-black text-[13px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
             >
               {item.name}
             </button>
