@@ -17,6 +17,7 @@ const LazyLoadedComponents = () => (
     <LazyLoadComponent component={() => import("@/components/Hero")} />
     <LazyLoadComponent component={() => import("@/components/Result")} />
     <LazyLoadComponent component={() => import("@/components/Chairman")} />
+    <LazyLoadComponent component={() => import("@/components/Chairperson")} />
     <LazyLoadComponent component={() => import("@/components/Programs")} />
     <LazyLoadComponent component={() => import("@/components/Help")} />
     <LazyLoadComponent component={() => import("@/components/Footer")} />

@@ -30,7 +30,7 @@ const Result = () => {
         transition={{ type: "spring", stiffness: 100 }}
         className="lg:text-[35px] text-[20px]  lg:w-[60%] text-center  font-[700] z-[1]"
       >
-        University Exam Result April/May-2023 Final year 100% Result
+        SKCE GROUP OF INSTITUTION PROVIDES A LOT OF FACILITIES
       </motion.h1>
       <p className="font-[100] ">-------- ----</p>
       <div className="w-[70%] flex justify-around flex-wrap gap-y-3">
@@ -38,7 +38,7 @@ const Result = () => {
           animate={{ y: position1 < scrollTrigger ? 50 : 0 }}
           transition={{ type: "spring", stiffness: 100 }}
           ref={elementRef1}
-          href="https://www.sreekrishnaengcollege.com/assets/img/SKCE_Mandatory_Disclosure-2022.pdf"
+          href="/"
           download
           className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
@@ -48,13 +48,13 @@ const Result = () => {
           </div>
           <IoBookSharp color="white" size={40} />
           <p className="text-white font-titlefont text-[15px]">
-            MANDATORY DISCLOSURE
+            Academic Facilities
           </p>
         </motion.a>
         <motion.a
           animate={{ y: position1 < scrollTrigger ? 50 : 0 }}
           transition={{ type: "spring", stiffness: 100 }}
-          href="/aicteessential"
+          href="/"
           className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
           <div className="absolute right-[-60%]">
@@ -63,14 +63,14 @@ const Result = () => {
           </div>
           <FaSwatchbook color="white" size={40} />
           <p className="text-white font-titlefont text-[15px]">
-            AICTE ESSENTIALS
+            Student Services
           </p>
         </motion.a>
         <motion.a
           animate={{ y: position1 < scrollTrigger ? 50 : 0 }}
           transition={{ type: "spring", stiffness: 100 }}
           ref={elementRef1}
-          href="https://www.sreekrishnaengcollege.com/assets/img/AICTE-EOA.pdf"
+          href="/"
           download
           className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
@@ -80,14 +80,14 @@ const Result = () => {
           </div>
           <FaComputer color="white" size={40} />
           <p className="text-white font-titlefont text-[15px]">
-            AICTE APPROVALS
+            Technology and Infrastructure
           </p>
         </motion.a>
         <motion.a
           animate={{ y: position1 < scrollTrigger ? 50 : 0 }}
           transition={{ type: "spring", stiffness: 100 }}
           ref={elementRef1}
-          href="https://www.sreekrishnaengcollege.com/assets/img/SKCE_Mandatory_Disclosure-2022.pdf"
+          href="/"
           download
           className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
@@ -96,7 +96,9 @@ const Result = () => {
             <Bubble />
           </div>
           <GiWorld color="white" size={40} />
-          <p className="text-white font-titlefont text-[15px]">APPROVAL</p>
+          <p className="text-white font-titlefont text-[15px]">
+            Residential Facilities
+          </p>
         </motion.a>
       </div>
       <motion.button

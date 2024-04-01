@@ -101,7 +101,7 @@ const Header = ({ scrollLength, currHeight }) => {
               </p>
             </div>
             <p className="text-[12px] font-Comfortaa">
-              SKC GROUP OF INSTITUTION
+              SKCE GROUP OF INSTITUTION
             </p>
             <div className="absolute right-5 text-[12px] flex gap-2 items-center">
               <p className="flex gap-1 items-center">
