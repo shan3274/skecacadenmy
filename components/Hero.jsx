@@ -7,6 +7,7 @@ import Header from "./Header";
 import { getElement } from "@/utils/firebase";
 
 const Hero = () => {
+  let bg = "/bg.mp4";
   const [count, setCount] = useState(0);
   const [data, setData] = useState({
     tiedUpWithVELS: {
@@ -66,7 +67,7 @@ const Hero = () => {
           </motion.div>
         </AnimatePresence>
         <video
-          src="/bg.mp4"
+          src={bg}
           autoPlay
           loop
           muted
