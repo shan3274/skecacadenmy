@@ -162,10 +162,10 @@ const Page = () => {
           <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
             <div className="w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
-                {datas[0].s3lh1}
+                {datas[0]?.s3lh1}
               </h1>
               <p className="text-[12px] w-[80%] text-gray-500">
-                {datas[0].s3lp1}
+                {datas[0]?.s3lp1}
               </p>
               <Link href="" className="flex items-center gap-2">
                 Read more{" "}
@@ -216,10 +216,10 @@ const Page = () => {
             </div>
             <div className="w-[600px] h-[500px] bg-[#c4ffff] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
-                {datas[0].s3rh1}
+                {datas[0]?.s3rh1}
               </h1>
               <p className="text-[12px] w-[80%] text-gray-500">
-                {datas[0].s3rp1}
+                {datas[0]?.s3rp1}
               </p>
               <Link href="" className="flex items-center gap-2">
                 Read more{" "}
