@@ -7,7 +7,8 @@ import Header from "./Header";
 import { getElement } from "@/utils/firebase";
 
 const Hero = () => {
-  let bg = "/bg.mp4";
+  let bg =
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/videos%2Fskceacademy%2Fbg_final.mp4?alt=media&token=26a8db05-6fa3-4d0c-8c0e-87fea1afe36a";
   const [count, setCount] = useState(0);
   const [data, setData] = useState({
     tiedUpWithVELS: {
