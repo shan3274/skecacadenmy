@@ -10,14 +10,14 @@ const Programs = () => {
     { name: "MBA", pathName: "#", database: "mba" },
     { name: "BBA", pathName: "#", database: "bba" },
     { name: "B.Com", pathName: "#",database: "bcom" },
-    { name: "B.Sc Yoga", pathName: "#" },
-    { name: "M.Sc Yoga", pathName: "#" },
-    { name: "Diploma Yoga", pathName: "#" },
+    { name: "B.Sc Yoga", pathName: "#", database:"bscyoga"},
+    { name: "M.Sc Yoga", pathName: "#", database:"msc" },
+    { name: "Diploma Yoga", pathName: "#", database:"diplomayoga" },
     { name: "M.A Astrology", pathName: "#" },
-    { name: "B.Sc Animation", pathName: "#" },
-    { name: "B.A (Hons) English", pathName: "#" },
-    { name: "M.A Karnatic Music", pathName: "#" },
-    { name: "M.A Bharatanatyam", pathName: "#" },
+    { name: "B.Sc Animation", pathName: "#", database:"bscanimation" },
+    { name: "B.A (Hons) English", pathName: "#", database:"bahonsenglish" },
+    { name: "M.A Karnatic Music", pathName: "#", database:"makarnaticmusic" },
+    { name: "M.A Bharatanatyam", pathName: "#" , database:"bsc"},
     { name: "Diploma in Astrology", pathName: "#" },
     { name: "B.A (Hons) Economics", pathName: "#" },
     { name: "B.Sc Visual Comumunication", pathName: "#" },
@@ -33,6 +33,7 @@ const Programs = () => {
   let [img, setImg] = useState();
   const [url, setUrl] = useState("mba");
 
+  console.log(url);
   const calldata = async () => {
     try {
       await getDocs(collection(db, url)).then((response) => {
