@@ -49,7 +49,7 @@ const Header = ({ scrollLength, currHeight }) => {
 
   const [program, seProgram] = useState([
     { name: "MBA", pathName: "/programs/mba" },
-    { name: "BBA", pathName: "#" },
+    { name: "BBA", pathName: "/programs/bba" },
     { name: "B.Com", pathName: "#" },
     { name: "B.A (Hons) Economics", pathName: "#" },
     { name: "B.A (Hons) English", pathName: "#" },
