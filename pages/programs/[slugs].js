@@ -1,11 +1,28 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ProgramContext } from "@/context/Programcontext";
-import img1 from "@/public/img1.jpeg";
-import img2 from "@/public/img2.jpeg";
-import { bba, mba } from "@/utils/data";
-import { db } from "@/utils/firebase";
-import { collection, getDocs, query } from "firebase/firestore";
+import {
+  baHonsEconomics,
+  baHonsEnglish,
+  baWesternClassicalMusic,
+  bba,
+  bcom,
+  bscAnimation,
+  bscFoodServiceManagement,
+  bscHotelCateringManagement,
+  bscVisualCommunication,
+  bscYoga,
+  diplomaAstrology,
+  diplomaHotelCateringManagement,
+  diplomaYoga,
+  maAstrology,
+  maBharatanatyam,
+  maKarnaticMusic,
+  mba,
+  mscHotelCateringManagement,
+  mscVisualCommunication,
+  mscYoga,
+} from "@/utils/data";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -44,24 +61,75 @@ const Page = () => {
     }
     calldata();
     if (datas !== undefined) {
-      setImg(datas[0]?.img);
-      setSect1image(datas[0]?.s1img);
-      setSect2image(datas[0]?.s2img);
-      sets3limg(datas[0]?.s3limg);
-      sets3rimg(datas[0]?.s3rimg);
+      setImg(datas.img);
+      setSect1image(datas.s1img);
+      setSect2image(datas.s2img);
+      sets3limg(datas.s3limg);
+      sets3rimg(datas.s3rimg);
     }
   }, [router.query.slugs, datas]);
 
   const calldata = async () => {
-    try {
-      await getDocs(collection(db, router.query.slugs)).then((response) => {
-        setDatas(
-          response.docs.map((res) => {
-            return { ...res.data(), id: res.id };
-          })
-        );
-      });
-    } catch (error) {}
+    if (router.query.slugs == "mba") {
+      setDatas(mba);
+    }
+    if (router.query.slugs == "bba") {
+      setDatas(bba);
+    }
+    if (router.query.slugs == "bcom") {
+      setDatas(bcom);
+    }
+    if (router.query.slugs == "bscyoga") {
+      setDatas(bscYoga);
+    }
+    if (router.query.slugs == "bahonsenglish") {
+      setDatas(baHonsEnglish);
+    }
+    if (router.query.slugs == "mscyoga") {
+      setDatas(mscYoga);
+    }
+    if (router.query.slugs == "diplomayoga") {
+      setDatas(diplomaYoga);
+    }
+    if (router.query.slugs == "mscastrology") {
+      setDatas(maAstrology);
+    }
+    if (router.query.slugs == "bscanimation") {
+      setDatas(bscAnimation);
+    }
+    if (router.query.slugs == "makarnaticmusic") {
+      setDatas(maKarnaticMusic);
+    }
+    if (router.query.slugs == "mabharatanatyam") {
+      setDatas(maBharatanatyam);
+    }
+    if (router.query.slugs == "diplomainastrology") {
+      setDatas(diplomaAstrology);
+    }
+    if (router.query.slugs == "bahonseconomics") {
+      setDatas(baHonsEconomics);
+    }
+    if (router.query.slugs == "bscvisualcomununication") {
+      setDatas(bscVisualCommunication);
+    }
+    if (router.query.slugs == "mscvisualcomununication") {
+      setDatas(mscVisualCommunication);
+    }
+    if (router.query.slugs == "bawesternclassicalmusic") {
+      setDatas(baWesternClassicalMusic);
+    }
+    if (router.query.slugs == "mschotelcateringmanagement") {
+      setDatas(mscHotelCateringManagement);
+    }
+    if (router.query.slugs == "bschotelcateringmanagement") {
+      setDatas(bscHotelCateringManagement);
+    }
+    if (router.query.slugs == "diplomahotelcateringmanagement") {
+      setDatas(diplomaHotelCateringManagement);
+    }
+    if (router.query.slugs == "bscfoodservicemanagementappliednutrition") {
+      setDatas(bscFoodServiceManagement);
+    }
   };
 
   let bgvideo = "/bgmba.mp4";
@@ -81,11 +149,9 @@ const Page = () => {
 
           <div className="w-[80%]  h-[60vh]  z-[10] relative bottom-10 bg-[#fbe8e8] flex items-center justify-around rounded-lg">
             <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
-              <h1 className="w-[90%] font-Comfortaa text-[25px]">
-                {datas[0]?.h1}
-              </h1>
+              <h1 className="w-[90%] font-Comfortaa text-[25px]">{datas.h1}</h1>
               <p className="text-[12px] font-poppins text-gray-500 w-[90%]">
-                {datas[0]?.p1}
+                {datas.p1}
               </p>
               <button className="w-[150px] h-[40px] font-poppins border border-black rounded-full text-[15px]">
                 Know more
@@ -106,7 +172,7 @@ const Page = () => {
         </div>
         <div className="w-[80%] h-screen flex flex-col items-center justify-center gap-0 relative bottom-[20vh]">
           <div className="w-full h-[10%] flex items-center justify-center">
-            <h1 className="text-[40px] font-Comfortaa">{datas[0]?.s1title}</h1>
+            <h1 className="text-[40px] font-Comfortaa">{datas.s1title}</h1>
           </div>
           <div className="w-full h-[70%] flex items-center justify-center">
             <div className="w-[50%] h-full relative flex items-center justify-center">
@@ -119,17 +185,17 @@ const Page = () => {
               />
             </div>
             <div className="w-[50%] h-full flex flex-col p-10 pl-20 justify-center gap-5 bg-gray-100">
-              <h1 className="text-[25px] font-Comfortaa">{datas[0]?.s1h1}</h1>
+              <h1 className="text-[25px] font-Comfortaa">{datas.s1h1}</h1>
               <p className="text-[15px] text-gray-500 font-poppins">
-                {datas[0]?.s1p1}
+                {datas.s1p1}
               </p>
-              <h1 className="text-[25px] font-Comfortaa">{datas[0]?.s1h2}</h1>
+              <h1 className="text-[25px] font-Comfortaa">{datas.s1h2}</h1>
               <p className="text-[15px] text-gray-500 font-poppins">
-                {datas[0]?.s1p2}
+                {datas.s1p2}
               </p>
-              <h1 className="text-[25px] font-Comfortaa">{datas[0]?.s1h3}</h1>
+              <h1 className="text-[25px] font-Comfortaa">{datas.s1h3}</h1>
               <p className="text-[15px] text-gray-500 font-poppins">
-                {datas[0]?.s1p3}
+                {datas.s1p3}
               </p>
             </div>
           </div>
@@ -137,10 +203,10 @@ const Page = () => {
         <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative -top-20 rounded-lg flex items-center justify-around">
           <div className="w-[50%] h-full flex flex-col justify-center gap-5 p-10">
             <h1 className="w-[90%] font-Comfortaa text-[35px]">
-              {datas[0]?.s2title}
+              {datas.s2title}
             </h1>
             <p className="text-[15px] font-poppins text-gray-500 w-[90%]">
-              {datas[0]?.s2p1}
+              {datas.s2p1}
             </p>
             <button className="w-[100px] h-[30px] font-poppins border border-black rounded-full text-[10px]">
               Know more
@@ -162,11 +228,9 @@ const Page = () => {
           <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
             <div className="w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
-                {datas[0]?.s3lh1}
+                {datas.s3lh1}
               </h1>
-              <p className="text-[12px] w-[80%] text-gray-500">
-                {datas[0]?.s3lp1}
-              </p>
+              <p className="text-[12px] w-[80%] text-gray-500">{datas.s3lp1}</p>
               <Link href="" className="flex items-center gap-2">
                 Read more{" "}
                 <svg
@@ -216,11 +280,9 @@ const Page = () => {
             </div>
             <div className="w-[600px] h-[500px] bg-[#c4ffff] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
-                {datas[0]?.s3rh1}
+                {datas.s3rh1}
               </h1>
-              <p className="text-[12px] w-[80%] text-gray-500">
-                {datas[0]?.s3rp1}
-              </p>
+              <p className="text-[12px] w-[80%] text-gray-500">{datas.s3rp1}</p>
               <Link href="" className="flex items-center gap-2">
                 Read more{" "}
                 <svg

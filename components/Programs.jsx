@@ -3,55 +3,165 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/utils/firebase";
+import {
+  baHonsEconomics,
+  baHonsEnglish,
+  baWesternClassicalMusic,
+  bba,
+  bcom,
+  bscAnimation,
+  bscFoodServiceManagement,
+  bscHotelCateringManagement,
+  bscVisualCommunication,
+  bscYoga,
+  diplomaAstrology,
+  diplomaHotelCateringManagement,
+  diplomaYoga,
+  maAstrology,
+  maBharatanatyam,
+  maKarnaticMusic,
+  mba,
+  mscHotelCateringManagement,
+  mscVisualCommunication,
+  mscYoga,
+} from "@/utils/data";
 
 const Programs = () => {
   const router = useRouter();
   const [program, seProgram] = useState([
     { name: "MBA", pathName: "#", database: "mba" },
     { name: "BBA", pathName: "#", database: "bba" },
-    { name: "B.Com", pathName: "#",database: "bcom" },
-    { name: "B.Sc Yoga", pathName: "#", database:"bscyoga"},
-    { name: "M.Sc Yoga", pathName: "#", database:"msc" },
-    { name: "Diploma Yoga", pathName: "#", database:"diplomayoga" },
-    { name: "M.A Astrology", pathName: "#" },
-    { name: "B.Sc Animation", pathName: "#", database:"bscanimation" },
-    { name: "B.A (Hons) English", pathName: "#", database:"bahonsenglish" },
-    { name: "M.A Karnatic Music", pathName: "#", database:"makarnaticmusic" },
-    { name: "M.A Bharatanatyam", pathName: "#" , database:"bsc"},
-    { name: "Diploma in Astrology", pathName: "#" },
-    { name: "B.A (Hons) Economics", pathName: "#" },
-    { name: "B.Sc Visual Comumunication", pathName: "#" },
-    { name: "M.Sc Visual Comumunication", pathName: "#" },
-    { name: "B.A Western Classical Music", pathName: "#" },
-    { name: "M.Sc Hotel & Catering Management", pathName: "#" },
-    { name: "B.Sc Hotel & Catering Management", pathName: "#" },
-    { name: "Diploma in Hotel & Catering Management", pathName: "#" },
-    { name: "B.Sc Food Service Management & Applied Nutrition", pathName: "#" },
+    { name: "B.Com", pathName: "#", database: "bcom" },
+    { name: "B.Sc Yoga", pathName: "#", database: "bscyoga" },
+    { name: "M.Sc Yoga", pathName: "#", database: "mscyoga" },
+    { name: "Diploma Yoga", pathName: "#", database: "diplomayoga" },
+    { name: "M.A Astrology", pathName: "#", database: "mscastrology" },
+    { name: "B.Sc Animation", pathName: "#", database: "bscanimation" },
+    { name: "B.A (Hons) English", pathName: "#", database: "bahonsenglish" },
+    { name: "M.A Karnatic Music", pathName: "#", database: "makarnaticmusic" },
+    { name: "M.A Bharatanatyam", pathName: "#", database: "mabharatanatyam" },
+    {
+      name: "Diploma in Astrology",
+      pathName: "#",
+      database: "diplomainastrology",
+    },
+    {
+      name: "B.A (Hons) Economics",
+      pathName: "#",
+      database: "bahonseconomics",
+    },
+    {
+      name: "B.Sc Visual Comumunication",
+      pathName: "#",
+      database: "bscvisualcomununication",
+    },
+    {
+      name: "M.Sc Visual Comumunication",
+      pathName: "#",
+      database: "mscvisualcomununication",
+    },
+    {
+      name: "B.A Western Classical Music",
+      pathName: "#",
+      database: "bawesternclassicalmusic",
+    },
+    {
+      name: "M.Sc Hotel & Catering Management",
+      pathName: "#",
+      database: "mschotelcateringmanagement",
+    },
+    {
+      name: "B.Sc Hotel & Catering Management",
+      pathName: "#",
+      database: "bschotelcateringmanagement",
+    },
+    {
+      name: "Diploma in Hotel & Catering Management",
+      pathName: "#",
+      database: "diplomahotelcateringmanagement",
+    },
+    {
+      name: "B.Sc Food Service Management & Applied Nutrition",
+      pathName: "#",
+      database: "bscfoodservicemanagementappliednutrition",
+    },
   ]);
 
   const [data, setData] = useState();
   let [img, setImg] = useState();
   const [url, setUrl] = useState("mba");
 
-  console.log(url);
+ 
   const calldata = async () => {
-    try {
-      await getDocs(collection(db, url)).then((response) => {
-        setData(
-          response.docs.map((res) => {
-            return { ...res.data(), id: res.id };
-          })
-        );
-      });
-    } catch (error) {}
+    if (url == "mba") {
+      setData(mba);
+    }
+    if (url == "bba") {
+      setData(bba);
+    }
+    if (url == "bcom") {
+      setData(bcom);
+    }
+    if (url == "bscyoga") {
+      setData(bscYoga);
+    }
+    if (url == "bahonsenglish") {
+      setData(baHonsEnglish);
+    }
+    if (url == "mscyoga") {
+      setData(mscYoga);
+    }
+    if (url == "diplomayoga") {
+      setData(diplomaYoga);
+    }
+    if (url == "mscastrology") {
+      setData(maAstrology);
+    }
+    if (url == "bscanimation") {
+      setData(bscAnimation);
+    }
+    if (url == "makarnaticmusic") {
+      setData(maKarnaticMusic);
+    }
+    if (url == "mabharatanatyam") {
+      setData(maBharatanatyam);
+    }
+    if (url == "diplomainastrology") {
+      setData(diplomaAstrology);
+    }
+    if (url == "bahonseconomics") {
+      setData(baHonsEconomics);
+    }
+    if (url == "bscvisualcomununication") {
+      setData(bscVisualCommunication);
+    }
+    if (url == "mscvisualcomununication") {
+      setData(mscVisualCommunication);
+    }
+    if (url == "bawesternclassicalmusic") {
+      setData(baWesternClassicalMusic);
+    }
+    if (url == "mschotelcateringmanagement") {
+      setData(mscHotelCateringManagement);
+    }
+    if (url == "bschotelcateringmanagement") {
+      setData(bscHotelCateringManagement);
+    }
+    if (url == "diplomahotelcateringmanagement") {
+      setData(diplomaHotelCateringManagement);
+    }
+    if (url == "bscfoodservicemanagementappliednutrition") {
+      setData(bscFoodServiceManagement);
+    }
   };
   useEffect(() => {
     calldata();
     if (data !== undefined) {
-      setImg(data[0]?.img);
+      setImg(data.img);
     }
   }, [url, data]);
 
+  console.log(data);
   return (
     data !== undefined && (
       <div className="w-full min-h-[80vh] flex items-center justify-center flex-col relative">
@@ -143,14 +253,10 @@ const Programs = () => {
                 />
               </svg>
             </div>
-            <h1 className="text-[25px] font-Comfortaa">{data[0]?.h1}</h1>
+            <h1 className="text-[25px] font-Comfortaa">{data.h1}</h1>
 
-            <p className="text-[13px] font-poppins text-gray-500">
-              {data[0]?.p1}
-            </p>
-            <p className="text-[13px] font-poppins text-gray-500">
-              {data[0]?.p2}
-            </p>
+            <p className="text-[13px] font-poppins text-gray-500">{data.p1}</p>
+            <p className="text-[13px] font-poppins text-gray-500">{data.p2}</p>
             <svg
               width="178"
               height="56"
@@ -158,7 +264,7 @@ const Programs = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className="cursor-pointer"
-              onClick={() => router.push(data[0]?.pathName)}
+              onClick={() => router.push(data.pathName)}
             >
               <rect
                 x="0.5"

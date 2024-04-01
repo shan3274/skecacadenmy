@@ -50,27 +50,27 @@ const Header = ({ scrollLength, currHeight }) => {
   const [program, seProgram] = useState([
     { name: "MBA", pathName: "/programs/mba" },
     { name: "BBA", pathName: "/programs/bba" },
-    { name: "B.Com", pathName: "#" },
-    { name: "B.A (Hons) Economics", pathName: "#" },
+    { name: "B.Com", pathName: "/programs/bcom" },
+    { name: "B.A (Hons) Economics", pathName: "/programs/mba" },
     { name: "B.A (Hons) English", pathName: "#" },
-    { name: "B.Sc Visual Comumunication", pathName: "#" },
+    { name: "B.Sc Visual Comumunication", pathName: "/programs/mba" },
     { name: "B.Sc Animation", pathName: "#" },
-    { name: "M.Sc Visual Comumunication", pathName: "#" },
-    { name: "Diploma in Hotel & Catering Management", pathName: "#" },
+    { name: "M.Sc Visual Comumunication", pathName: "/programs/mba" },
+    { name: "Diploma in Hotel & Catering Management", pathName: "/programs/mba" },
 
-    { name: "B.Sc Hotel & Catering Management", pathName: "#" },
-    { name: "B.Sc Food Service Management & Applied Nutrition", pathName: "#" },
-    { name: "M.Sc Hotel & Catering Management", pathName: "#" },
+    { name: "B.Sc Hotel & Catering Management", pathName: "/programs/mba" },
+    { name: "B.Sc Food Service Management & Applied Nutrition", pathName: "/programs/mba" },
+    { name: "M.Sc Hotel & Catering Management", pathName: "/programs/mba" },
 
-    { name: "B.Sc Yoga", pathName: "#" },
-    { name: "M.Sc Yoga", pathName: "#" },
-    { name: "Diploma Yoga", pathName: "#" },
-    { name: "M.A Astrology", pathName: "#" },
-    { name: "Diploma in Astrology", pathName: "#" },
+    { name: "B.Sc Yoga", pathName: "/programs/bscyoga" },
+    { name: "M.Sc Yoga", pathName: "/programs/mba" },
+    { name: "Diploma Yoga", pathName: "/programs/mba" },
+    { name: "M.A Astrology", pathName: "/programs/mba" },
+    { name: "Diploma in Astrology", pathName: "/programs/mba" },
 
-    { name: "B.A Western Classical Music", pathName: "#" },
-    { name: "M.A Karnatic Music", pathName: "#" },
-    { name: "M.A Bharatanatyam", pathName: "#" },
+    { name: "B.A Western Classical Music", pathName: "/programs/mba" },
+    { name: "M.A Karnatic Music", pathName: "/programs/mba" },
+    { name: "M.A Bharatanatyam", pathName: "/programs/mba" },
   ]);
 
   const [disData, setDisData] = useState([]);
@@ -86,7 +86,7 @@ const Header = ({ scrollLength, currHeight }) => {
           <div
             className={
               scrollLength < 10
-                ? "w-full h-[2rem]  bg-[#0A2647] z-[999] relative flex items-center justify-center text-white"
+                ? "w-full h-[2rem]  bg-[#392346] z-[999] relative flex items-center justify-center text-white"
                 : "hidden"
             }
           >
@@ -112,8 +112,8 @@ const Header = ({ scrollLength, currHeight }) => {
           <div
             className={
               scrollLength > 70
-                ? "w-[100%] h-[5rem] bg-[#0A2647] z-[9999] fixed top-0 duration-700 flex items-center justify-evenly text-white rounded-none "
-                : "w-[60%] h-[5rem] bg-[#0A2647] z-[9999] sticky top-0 duration-700  flex  items-center justify-evenly text-white rounded-lg  rounded-br-none "
+                ? "w-[100%] h-[5rem] bg-[#392346] z-[9999] fixed top-0 duration-700 flex items-center justify-evenly text-white rounded-none "
+                : "w-[60%] h-[5rem] bg-[#392346] z-[9999] sticky top-0 duration-700  flex  items-center justify-evenly text-white rounded-lg  rounded-br-none "
             }
           >
             <div className="w-full h-full relative flex items-center justify-evenly">
@@ -136,13 +136,13 @@ const Header = ({ scrollLength, currHeight }) => {
                   })}
                 </div>
               )}
-              <div className="absolute w-[30%] h-[2rem] bg-[#144272] right-0 top-[100%] rounded-sm ">
-                <div className="w-full h-full relative bg-[#144272] flex items-center justify-around rounded-sm ">
+              <div className="absolute w-[30%] h-[2rem] bg-[#ae8949] right-0 top-[100%] rounded-sm ">
+                <div className="w-full h-full relative bg-[#ae8949] flex items-center justify-around rounded-sm ">
                   <div
                     className={
                       scrollLength > 70
-                        ? "clippath absolute w-[2rem] h-full bg-[rgb(30,64,120)] left-[-1.9rem]"
-                        : "clippath absolute w-[2rem] h-full bg-[rgb(30,64,120)] left-[-1.9rem]"
+                        ? "clippath absolute w-[2rem] h-full bg-[#ae8949] left-[-1.9rem]"
+                        : "clippath absolute w-[2rem] h-full bg-[#ae8949] left-[-1.9rem]"
                     }
                   ></div>
                   <Link
@@ -162,7 +162,7 @@ const Header = ({ scrollLength, currHeight }) => {
                 <Image
                   src={logo}
                   width={200}
-                  className="cursor-pointer relative z-[9999]"
+                  className="cursor-pointer relative z-[9999] w-[150px]"
                 />
               </Link>
               <ul
