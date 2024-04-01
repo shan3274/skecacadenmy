@@ -30,20 +30,15 @@ const Footer = () => {
             </div>
 
             <div className="w-[45%] h-[50vh] flex flex-col justify-evenly text-[13px] ">
-              <h1 className="text-[17px] font-[700]">DEPARTMENTS</h1>
-              <Link href="#">B.E. Civil Engineering(Naan Mudalvan Scheme)</Link>
-              <Link href="#">B.E- Computer Science(Naan Mudalvan Scheme)</Link>
-              <Link href="#">
-                B.E Electronics And Communication(Naan Mudalvan Scheme)
-              </Link>
-              <Link href="#">
-                B.E Electrical And Electronics(Naan Mudalvan Scheme)
-              </Link>
-              <Link href="#">
-                B.E Mechanical Engineering(Naan Mudalvan Scheme)
-              </Link>
-              <Link href="#">Science And Humanities</Link>
-              <Link href="#">MBA & MCA</Link>
+              <h1 className="text-[17px] font-[700]">Institutions</h1>
+              <Link href="#">Sree Krishna IAS / IPS academy</Link>
+              <Link href="#">SREE Krishna arts & science</Link>
+              <Link href="#">SREE Krishna international CBSE school</Link>
+              <Link href="#">SREE Krishna international ICSE school</Link>
+              <Link href="#">SREE Krishna Civil services</Link>
+              <Link href="#">Muppadi academy ( army training)</Link>
+              <Link href="#">SREE Krishna neet /jee/Apache</Link>
+              <Link href="#">SREE Krishna distance education</Link>
             </div>
           </div>
           <div className="lg:w-[40%] w-[100%] h-[80%] flex flex-col justify-evenly lg:gap-0 gap-2 mb-10 lg:items-center text-[15px] relative">
@@ -80,7 +75,7 @@ const Footer = () => {
           transition={{ duration: 1 }}
           className="w-full h-[10vh] lg:h-[10%] flex items-center justify-center border-t relative top-[50px]"
         >
-          <p className="">© 2024 Sree Krishna College Of Engineering</p>
+          <p className="">© 2024 SKCE GROUP OF INSTITUTION</p>
         </motion.div>
       </>
     </motion.div>
