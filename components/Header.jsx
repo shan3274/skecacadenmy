@@ -3,7 +3,7 @@ import logo from "@/public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 
-import { CiSearch, CiMenuBurger } from "react-icons/ci";
+import { CiSearch, CiMenuBurger, CiInstagram } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import Searchbox from "./Searchbox";
 
@@ -12,11 +12,13 @@ import Phoneheader from "./Phoneheader";
 import {
   AiFillClockCircle,
   AiFillFacebook,
+  AiFillInstagram,
   AiFillMail,
   AiFillPhone,
   AiFillTwitterSquare,
   AiFillYoutube,
 } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = ({ scrollLength, currHeight }) => {
   const [search, setSearch] = useState(false);
@@ -56,10 +58,16 @@ const Header = ({ scrollLength, currHeight }) => {
     { name: "B.Sc Visual Comumunication", pathName: "/programs/mba" },
     { name: "B.Sc Animation", pathName: "#" },
     { name: "M.Sc Visual Comumunication", pathName: "/programs/mba" },
-    { name: "Diploma in Hotel & Catering Management", pathName: "/programs/mba" },
+    {
+      name: "Diploma in Hotel & Catering Management",
+      pathName: "/programs/mba",
+    },
 
     { name: "B.Sc Hotel & Catering Management", pathName: "/programs/mba" },
-    { name: "B.Sc Food Service Management & Applied Nutrition", pathName: "/programs/mba" },
+    {
+      name: "B.Sc Food Service Management & Applied Nutrition",
+      pathName: "/programs/mba",
+    },
     { name: "M.Sc Hotel & Catering Management", pathName: "/programs/mba" },
 
     { name: "B.Sc Yoga", pathName: "/programs/bscyoga" },
@@ -82,7 +90,7 @@ const Header = ({ scrollLength, currHeight }) => {
       </div>
 
       <div className="hidden lg:block relative">
-        <div className="w-full flex flex-col gap-10 items-center justify-center bg-transparent absolute top-0">
+        <div className="w-full flex flex-col gap-10 items-center justify-center bg-transparent absolute top-0 ">
           <div
             className={
               scrollLength < 10
@@ -90,7 +98,7 @@ const Header = ({ scrollLength, currHeight }) => {
                 : "hidden"
             }
           >
-            <div className="absolute left-5 text-[12px] flex gap-2 items-center">
+            <div className="absolute left-5 text-[12px] flex gap-2 items-center text-[#ae8949]">
               {" "}
               <p className="flex gap-1 items-center">
                 {" "}
@@ -100,11 +108,11 @@ const Header = ({ scrollLength, currHeight }) => {
                 | <AiFillPhone /> 9894216849 / 9443322420
               </p>
             </div>
-            <p className="text-[12px] font-Comfortaa">
-              SKCE GROUP OF INSTITUTION
+            <p className="text-[12px] font-Comfortaa text-[#ae8949]">
+              SKC GROUP OF INSTITUTION
             </p>
             <div className="absolute right-5 text-[12px] flex gap-2 items-center">
-              <p className="flex gap-1 items-center">
+              <p className="flex gap-1 items-center text-[#ae8949]">
                 <AiFillClockCircle /> COUNSELLING CODE - 1438
               </p>
             </div>
@@ -145,16 +153,12 @@ const Header = ({ scrollLength, currHeight }) => {
                         : "clippath absolute w-[2rem] h-full bg-[#ae8949] left-[-1.9rem]"
                     }
                   ></div>
-                  <Link
-                    href={"#"}
-                    className="py-1 px-2 bg-[#205295] text-white text-[8px] rounded-lg "
-                  >
-                    PLACEMENT / TRAINING
-                  </Link>
                   <div className="flex gap-5 text-white">
                     <AiFillFacebook size={20} />
                     <AiFillTwitterSquare size={20} />
                     <AiFillYoutube size={20} />
+                    <AiFillInstagram size={20} />
+                    <FaLinkedinIn size={20} />
                   </div>
                 </div>
               </div>
@@ -168,10 +172,18 @@ const Header = ({ scrollLength, currHeight }) => {
               <ul
                 className={
                   scrollLength > 70
-                    ? "lg:flex  h-full hidden gap-2 text-[12px] items-center justify-evenly font-serif"
-                    : "lg:flex h-full  hidden gap-2 text-[12px] items-center justify-evenly font-serif"
+                    ? "lg:flex  h-full hidden gap-2 text-[12px] items-center justify-evenly font-poppins"
+                    : "lg:flex h-full  hidden gap-2 text-[12px] items-center justify-evenly font-poppins"
                 }
               >
+                <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
+                  <Link
+                    href="/"
+                    className="hover:scale-[1.02] duration-300  font-poppins"
+                  >
+                    HOME
+                  </Link>
+                </li>
                 <li
                   className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]"
                   onMouseEnter={() => {
@@ -181,9 +193,9 @@ const Header = ({ scrollLength, currHeight }) => {
                 >
                   <Link
                     href="/about"
-                    className="hover:scale-[1.02] duration-300 font-serif"
+                    className="hover:scale-[1.02] duration-300  font-poppins"
                   >
-                    ABOUT SKCE
+                    ABOUT SKC
                   </Link>
                 </li>
 
@@ -196,23 +208,23 @@ const Header = ({ scrollLength, currHeight }) => {
                 >
                   <Link
                     href="#"
-                    className="hover:scale-[1.02] duration-300 font-serif"
+                    className="hover:scale-[1.02] duration-300 font-poppins"
                   >
                     PROGRAMS
                   </Link>
                 </li>
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
-                  <Link href="#" className="font-serif">
+                  <Link href="#" className="font-poppins">
                     ADMISSIONS
                   </Link>
                 </li>
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
-                  <Link href="/gallery" className="font-serif">
+                  <Link href="/gallery" className="font-poppins">
                     GALLERY
                   </Link>
                 </li>
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
-                  <Link href="/contact" className="font-serif">
+                  <Link href="/contact" className="font-poppins">
                     CONTACT US
                   </Link>
                 </li>

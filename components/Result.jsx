@@ -19,18 +19,17 @@ const Result = () => {
 
   return (
     <div className="w-full min-h-[55vh] relative flex flex-col items-center justify-center bg-[#F6F9F5] pb-10 gap-5 overflow-hidden">
-      <div className="absolute h-full w-full  top-[-50vh] left-[-15vw]   z-[0] duration-300 ">
-        <Bubble color={"#0A2647"} width={"40vw"} />
-      </div>
-      <div className="absolute h-full w-full  top-[20vh] left-[140vh]   z-[0] duration-300 ">
-        <Bubble color={"#0A2647"} width={"40vw"} />
-      </div>
+      <img src="/5.png" className="w-[50%] absolute left-[-22%] top-[-25%]" />
+      <img
+        src="/4.png"
+        className="w-[50%] absolute right-[-28%] bottom-[-28%]"
+      />
       <motion.h1
         animate={{ scale: position1 < scrollTrigger ? 1 : 0 }}
         transition={{ type: "spring", stiffness: 100 }}
         className="lg:text-[35px] text-[20px]  lg:w-[60%] text-center  font-[700] z-[1]"
       >
-        SKCE GROUP OF INSTITUTION PROVIDES A LOT OF FACILITIES
+        SKC GROUP OF INSTITUTION PROVIDES A LOT OF FACILITIES
       </motion.h1>
       <p className="font-[100] ">-------- ----</p>
       <div className="w-[70%] flex justify-around flex-wrap gap-y-3">
@@ -40,7 +39,7 @@ const Result = () => {
           ref={elementRef1}
           href="/"
           download
-          className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
+          className="w-[250px] h-[100px] bg-[#392346] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
           <div className="absolute left-[-20%]">
             {" "}
@@ -55,7 +54,7 @@ const Result = () => {
           animate={{ y: position1 < scrollTrigger ? 50 : 0 }}
           transition={{ type: "spring", stiffness: 100 }}
           href="/"
-          className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
+          className="w-[250px] h-[100px] bg-[#392346] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
           <div className="absolute right-[-60%]">
             {" "}
@@ -72,7 +71,7 @@ const Result = () => {
           ref={elementRef1}
           href="/"
           download
-          className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
+          className="w-[250px] h-[100px] bg-[#392346] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
           <div className="absolute right-[-80%]">
             {" "}
@@ -89,7 +88,7 @@ const Result = () => {
           ref={elementRef1}
           href="/"
           download
-          className="w-[250px] h-[100px] bg-[#0A2647] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
+          className="w-[250px] h-[100px] bg-[#392346] relative top-[-50px] rounded-lg flex flex-col items-center justify-center gap-2 hover:scale-[1.1]  cursor-pointer"
         >
           <div className="absolute right-[-50%]">
             {" "}
@@ -104,7 +103,7 @@ const Result = () => {
       <motion.button
         animate={{ y: position1 < scrollTrigger ? -50 : 0 }}
         transition={{ type: "spring", stiffness: 100 }}
-        className="bg-[#0A2647] text-white w-[220px] h-[50px] relative top-[100px]"
+        className="bg-[#392346] text-white w-[220px] h-[50px] relative top-[100px]"
       >
         Know more
       </motion.button>

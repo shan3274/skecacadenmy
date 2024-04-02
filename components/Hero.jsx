@@ -7,8 +7,7 @@ import Header from "./Header";
 import { getElement } from "@/utils/firebase";
 
 const Hero = () => {
-  let bg =
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/videos%2Fskceacademy%2Fbg_final.mp4?alt=media&token=26a8db05-6fa3-4d0c-8c0e-87fea1afe36a";
+  let bg = "/bgmain.mp4";
   const [count, setCount] = useState(0);
   const [data, setData] = useState({
     tiedUpWithVELS: {
@@ -21,11 +20,12 @@ const Hero = () => {
         "Sree Krishna College of Engineering in Vellore was inaugurated in August 2010 by Vellore District Collector Mr.S. Rajendran. SKCE is managed by Lord Sree Krishna Trust. The founder of the Trust, Dr. A. Aranganathan, is a socialist with rich experience in Educational Institutions.",
     },
     admissionsAnnouncement: {
-      title: "Admissions open April 24, 2024",
+      title: "Admission open 2024-25",
       buttonText: "Apply Now",
     },
   });
 
+  let bg1 = "/bgmain.mp4";
   useEffect(() => {
     let i = 0;
     const interval = setInterval(() => {
@@ -57,12 +57,12 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="absolute w-[90%] lg:w-[50%] h-[40%] bg-black/30 z-[3] rounded-[50px] top-[30%] flex flex-col items-center justify-center gap-5 duration-300"
+            className="absolute w-[90%] lg:w-[50%] h-[40%] bg-black/40 z-[3] rounded-[50px] top-[30%] flex flex-col items-center justify-center gap-5 duration-300"
           >
-            <h1 className="lg:text-[40px] text-[30px]  lg:w-[60%] text-center font-[700] font-titlefont">
+            <h1 className="lg:text-[40px] text-[30px]  lg:w-[70%] text-center font-[700] font-Comfortaa">
               {data.admissionsAnnouncement.title}
             </h1>
-            <button className="lg:text-[25px] font-sans px-5 py-3 bg-yellow-500 rounded-lg hover:scale-[1.05] duration-75 hover:bg-blue-500">
+            <button className="lg:text-[25px] font-sans px-5 py-3 bg-[#ae8949] text- rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">
               {data.admissionsAnnouncement.buttonText}
             </button>
           </motion.div>
