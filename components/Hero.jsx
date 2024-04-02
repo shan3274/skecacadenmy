@@ -63,7 +63,7 @@ const Hero = () => {
             <h1 className="lg:text-[30px] text-[25px]   text-center font-[700] font-Comfortaa">
               {data.admissionsAnnouncement.title}
             </h1>
-            <button className="lg:text-[25px] font-sans px-5 py-3 bg-[#ae8949] text- rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">
+            <button className="text-[15px] font-sans px-5 py-3 bg-[#ae8949]  rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">
               {data.admissionsAnnouncement.buttonText}
             </button>
           </motion.div>
