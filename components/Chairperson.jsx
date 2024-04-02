@@ -6,7 +6,7 @@ import img1 from "@/public/chairman.jpg";
 const Chairperson = () => {
   return (
     <div className="w-full min-h-[60vh] flex items-center justify-center bg-[#e3eae3] my-10">
-      <div className="w-[80%] min-h-[60vh] flex items-center justify-around gap-5 flex-wrap bg-[#e3eae3]">
+      <div className="w-[100%] min-h-[60vh] flex items-center justify-around gap-5 flex-wrap bg-[#e3eae3]">
         <div className="w-[600px] h-[60vh] flex justify-center flex-col gap-5">
           <h1 className="text-[40px] font-Comfortaa">
             Dr.G.SARAVANAN (M.B.A,Ph.D)

@@ -166,7 +166,7 @@ const Header = ({ scrollLength, currHeight }) => {
                 <Image
                   src={logo}
                   width={200}
-                  className="cursor-pointer relative z-[9999] w-[250px]"
+                  className="cursor-pointer relative z-[9999] w-[200px]"
                 />
               </Link>
               <ul
