@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import useScroll from "@/hooks/useScroll";
 import Header from "./Header";
 import { getElement } from "@/utils/firebase";
+import { chairmaindata } from "@/utils/data";
 
 const Hero = () => {
   let bg = "/bgmain.mp4";
@@ -44,9 +45,7 @@ const Hero = () => {
       <main className="w-full h-screen bg-[#bababa] flex items-center justify-center overflow-hidden text-white cursor-default relative">
         <div className="absolute flex items-center w-full h-[40px] bg-black/30 backdrop-blur-sm z-[3] bottom-5">
           <div className="marquee-container">
-            <div className="marquee-content">
-              {data.tiedUpWithVELS.description}
-            </div>
+            <div className="marquee-content">{chairmaindata.paragraph2}</div>
           </div>
         </div>
 

@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { FaClock } from "react-icons/fa";
+import { FaArrowRight, FaClock } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -118,9 +118,6 @@ const Page = () => {
           <div className="absolute w-[90%] aspect-[4/6] z-[-1] border rounded-[100px] top-5 border-yellow-500"></div>
         </div>
         <div className="w-[400px] flex flex-col items-center justify-center h-[80vh] gap-5">
-          <p className="text-red-500 text-[13px] font-poppins text-center ">
-            Learn From Today
-          </p>
           <h1 className="text-[35px] font-Comfortaa text-center">
             {datas?.title}
           </h1>
@@ -129,9 +126,9 @@ const Page = () => {
           </p>
           <Link
             href="#"
-            className="w-[200px] h-[40px] text-white bg-blue-600 flex items-center justify-center rounded-full duration-300 hover:scale-105"
+            className="w-[200px] h-[40px] text-white bg-blue-600 flex items-center justify-center rounded-full duration-300 hover:scale-105 gap-2"
           >
-            Know More
+            Next <FaArrowRight />
           </Link>
         </div>
         <div className="w-[300px] relative bottom-10">
@@ -147,70 +144,9 @@ const Page = () => {
         </div>
       </div>
       {/*section1*/}
-      <div className="w-full min-h-[70vh] flex items-center justify-center ">
+      <div className="w-full min-h-[70vh] flex items-center justify-center relative top-5">
         <div className="xl:w-[90%] w-[100%] flex items-start justify-around">
-          <div className="w-[25%] h-[60vh] flex flex-col items-center overflow-scroll gap-5 border">
-            <div className="w-full h-[60px]">
-              <h1 className="text-[25px] font-Comfortaa w-full h-[50px] p-2 bg-gray-200 relative after:absolute after:w-[40px] after:h-[40px] after:bg-gray-200 after:top-[50%] after:rotate-[45deg] after:left-10 after:z-[-1] z-[]">
-                Announcement
-              </h1>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-            <div className="w-[95%] h-[100px] border-t-[3px]  border-b-[3px] flex p-3 flex-col  gap-3">
-              <h1 className="font-titlefont text-[25px] text-blue-700">
-                Chamer Chat
-              </h1>
-              <p className="flex items-center  gap-2">
-                <FaClock color="gray" size={12} />
-                August 8, 2024
-              </p>
-            </div>
-          </div>
-          <div className="w-[75%] h-[60vh] flex items-center justify-center gap-5 flex-wrap">
+          <div className="w-[90%] h-[60vh] flex items-center justify-center gap-10 flex-wrap">
             <div className="w-[300px] overflow-hidden rounded-[50px] relative drop-shadow-xl">
               {" "}
               <Image
@@ -227,7 +163,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[600px] h-[80%] flex items-center justify-center gap-2">
+            <div className="w-[700px] h-[80%] flex items-center justify-center gap-10">
               <div className="w-[50%] overflow-hidden  min-h-full py-5 border bg-white rounded-[30px] flex items-center justify-center flex-col gap-5 drop-shadow-xl">
                 <Image
                   loader={() => (img2 = img2)}
@@ -279,24 +215,9 @@ const Page = () => {
       </div>
       {/*sectionumber*/}
       <div className="w-full h-[30vh] flex items-center justify-evenly flex-wrap relative  after:absolute after:w-[80%] after:h-[.5px] after:bg-gray-600 after:bottom-10 before:absolute before:w-[80%] before:h-[.5px] before:bg-gray-600 before:top-10">
-        <div className="w-[300px] h-full flex flex-col items-center justify-center gap-2">
-          <h1 className="text-[40px] font-Comfortaa">600+</h1>
-          <p className="text-[20px] font-poppins text-gray-500 text-center">
-            Organized student groups
-          </p>
-        </div>
-        <div className="w-[300px] h-full flex flex-col items-center justify-center gap-2">
-          {" "}
-          <h1 className="text-[40px] font-Comfortaa">81</h1>
-          <p className="text-[20px] font-poppins text-gray-500 text-center">
-            Undergraduate student residences
-          </p>
-        </div>
-        <div className="w-[300px] h-full flex flex-col items-center justify-center gap-2">
-          {" "}
-          <h1 className="text-[40px] font-Comfortaa">14,000+</h1>
-          <p className="text-[20px] font-poppins text-gray-500 text-center">
-            Students living on campus
+        <div className=" h-full flex flex-col items-center justify-center gap-2">
+          <p className="text-[30px] font-poppins text-gray-500 text-center">
+            {datas?.title}
           </p>
         </div>
       </div>
@@ -314,16 +235,13 @@ const Page = () => {
                   src={item.img}
                   width={0}
                   height={0}
-                  className="w-full"
+                  className="w-[90%]"
                 />
                 <div className="w-full flex flex-col  gap-5">
                   <h1 className="text-[25px] font-Comfortaa">{item.h1}</h1>
                   <p className="text-[12px] w-[90%] font-poppins text-gray-500">
                     {item.p1}
                   </p>
-                  <Link className="text-[13px] text-blue-500" href="#">
-                    {item.button}
-                  </Link>
                 </div>
               </div>
             );
@@ -332,7 +250,7 @@ const Page = () => {
       </div>
       {/*section3*/}
       <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col">
-        <h1 className="text-[40px] font-titlefont">Features</h1>
+        <h1 className="text-[40px] font-Comfortaa">Features</h1>
         <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
           <div className="w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
             <h1 className="text-[20px] font-poppins font-[500] pt-10">
