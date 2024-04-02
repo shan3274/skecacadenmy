@@ -6,7 +6,7 @@ import img1 from "@/public/chairman.jpeg";
 const Chairperson = () => {
   return (
     <div className="w-full min-h-[60vh] flex items-center justify-center bg-[#9af69a] my-10">
-      <div className="w-[100%] min-h-[60vh] flex items-center justify-around gap-5 flex-wrap bg-[#DDA0DD]">
+      <div className="w-[100%] min-h-[60vh] flex items-center justify-around gap-5 flex-wrap bg-[#c0b9dd]">
         <div className="w-[600px] h-[60vh] flex justify-center flex-col gap-5">
           <h1 className="text-[40px] font-Comfortaa">
             Dr.G.SARAVANAN (M.B.A,Ph.D)
@@ -22,7 +22,7 @@ const Chairperson = () => {
           </p>
           <Link
             href="/"
-            className="w-[150px] h-[40px] text-[13px] font-Comfortaa bg-[#acc3ac] text-white flex items-center justify-center rounded-full duration-300 hover:scale-105"
+            className="w-[150px] h-[40px] text-[13px] font-Comfortaa bg-[#412234] text-white flex items-center justify-center rounded-full duration-300 hover:scale-105"
           >
             Know more
           </Link>

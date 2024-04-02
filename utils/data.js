@@ -1,5 +1,3 @@
-
-
 export let sreeKrishnaIAS_IPSAcademy = {
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
@@ -1074,4 +1072,13 @@ export const bscFoodServiceManagement = {
   s3rh1: "Further Education",
   s3rp1:
     "Further Education: Some graduates may choose to pursue further education by enrolling in postgraduate programs such as Master of Science (M.Sc) in Nutrition and Dietetics, Master of Business Administration (MBA) with a focus on hospitality management, or specialized certifications in areas such as culinary arts, dietetics, or food safety.",
+};
+
+export const chairmaindata = {
+  title1: "OUR VISION",
+  paragraph1:
+    "We mould our students technologically Superior, ethically strong and want them to be recognized as an international leader in academic education, cutting-edge research, and the application of knowledge to benefit society locally and globally. The college aims prepares students for employment and assists them in pursuing their educational, carrier and personal goals through a variety of learning opportunities. We always committed to achieve student- centered learning, academic excellence, innovations, integrity and effective communication among students.",
+  title2: "OUR MISSION",
+  paragraph2:
+    "Our mission is to offer excellent quality education with a high standard of academic excellence, academic support and developmental education courses and experiences designed to prepare students for success in transfer, technical education and to create a highly qualified pool of engineers who can play a vital role in technological innovations and work towards the benefits of society. We are committed to give training activities and services to expand life skills and knowledge of our students.",
 };
