@@ -30,7 +30,6 @@ import React, { useEffect, useState, useContext } from "react";
 
 const Page = () => {
   const router = useRouter();
-  const [scrollLength, setScrollLength] = useState();
 
   const programdetails = useContext(ProgramContext);
 
@@ -39,7 +38,7 @@ const Page = () => {
     "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
   let img2 =
     "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-
+  const [scrollLength, setScrollLength] = useState();
   useEffect(() => {
     setScrollLength(100);
   }, []);

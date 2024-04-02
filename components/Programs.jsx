@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { collection, getDocs } from "firebase/firestore";
-import { db } from "@/utils/firebase";
+
 import {
   baHonsEconomics,
   baHonsEnglish,
@@ -299,7 +298,7 @@ const Programs = () => {
             </svg>
           </div>
         </div>
-        <div className="w-[80%] relative bottom-20 min-h-[100%]   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
+        <div className="w-[80%] relative bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
           {program.map((item) => {
             return (
               <button
@@ -309,7 +308,7 @@ const Programs = () => {
                     calldata();
                   }
                 }}
-                className="text-black text-[13px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
+                className="text-black  text-[13px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
               >
                 {item.name}
               </button>

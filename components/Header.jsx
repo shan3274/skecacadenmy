@@ -221,7 +221,7 @@ const Header = ({ scrollLength, currHeight }) => {
                   }}
                 >
                   <Link
-                    href="#"
+                    href="/programs"
                     className="hover:scale-[1.02] duration-300 font-poppins"
                   >
                     PROGRAMS
