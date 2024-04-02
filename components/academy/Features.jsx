@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 const Features = () => {
-  let img1 =
+  let img5 =
     "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-  let img2 =
+  let img6 =
     "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
   return (
     <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col">
@@ -44,8 +44,8 @@ const Features = () => {
           </Link>
           <div className=" relative">
             <Image
-              loader={() => (img1 = img1)}
-              src={img1}
+              loader={() => (img5 = img5)}
+              src={img5}
               width={0}
               height={0}
               alt=""
@@ -101,8 +101,8 @@ const Features = () => {
           </Link>
           <div className=" relative">
             <Image
-              loader={() => (img2 = img2)}
-              src={img2}
+              loader={() => (img6 = img6)}
+              src={img6}
               width={0}
               height={0}
               alt=""

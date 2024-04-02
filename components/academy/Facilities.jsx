@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const Facilities = () => {
-  const data = [
+  const data2 = [
     {
       img: "https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=10",
       title: "title 1",
@@ -57,7 +57,7 @@ const Facilities = () => {
         </svg>
       </div>
       <div className="w-[80%] min-h-[40vh] gap-y-10 flex items-center justify-around flex-wrap mb-10">
-        {data.map((item) => {
+        {data2.map((item) => {
           return (
             <div className="w-[300px] h-[400px] bg-gray-100 rounded-xl flex pl-5 justify-center flex-col gap-5 duration-300 hover:scale-105">
               <Image

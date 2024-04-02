@@ -188,7 +188,7 @@ const Header = ({ scrollLength, currHeight }) => {
                 className={
                   scrollLength > 70
                     ? "lg:flex  h-full hidden gap-2 text-[12px] items-center justify-evenly font-poppins"
-                    : "lg:flex h-full  hidden gap-2 text-[12px] items-center justify-evenly font-poppins"
+                    : "lg:flex h-full  hidden gap-2 text-[10px] items-center justify-evenly font-poppins"
                 }
               >
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">

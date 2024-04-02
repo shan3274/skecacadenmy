@@ -3,16 +3,16 @@ import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
-  let img1 =
+  let img3 =
     "https://images.pexels.com/photos/1007066/pexels-photo-1007066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=10";
-  let img2 =
+  let img4 =
     "https://images.pexels.com/photos/3793238/pexels-photo-3793238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=10";
   return (
     <div className="w-full min-h-[80vh] relative top-[5rem] flex items-center justify-around flex-wrap px-20">
       <div className="w-[300px] relative top-10">
         <Image
-          loader={() => (img1 = img1)}
-          src={img1}
+          loader={() => (img3 = img3)}
+          src={img3}
           width={0}
           height={0}
           alt="img1"
@@ -41,8 +41,8 @@ const Hero = () => {
       </div>
       <div className="w-[300px] relative bottom-10">
         <Image
-          loader={() => (img2 = img2)}
-          src={img2}
+          loader={() => (img4 = img4)}
+          src={img4}
           width={0}
           height={0}
           alt="img1"

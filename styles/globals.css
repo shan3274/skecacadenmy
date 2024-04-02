@@ -17,24 +17,6 @@
   display: none;
 }
 
-.marquee-container {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-}
-
-.marquee-content {
-  display: inline-block;
-  animation: marquee 30s linear infinite;
-}
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 .input-style {
   width: 300px;
@@ -49,4 +31,136 @@
 }
 .ryttri1 {
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+#hero-content {
+  background-color: white;
+  box-shadow: 5px 10px #888888;
+}
+.img-round {
+  border-top-right-radius: 150px;
+}
+.side-line {
+  box-shadow: -5px 1px 10px white;
+}
+.chair {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.link {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 0; /* Initially set width to 0 */
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s; /* Add transition for smooth width change */
+}
+
+.link:hover::after {
+  /* Apply hover effect to the ::after pseudo-element */
+  width: 50%; /* Expand the width on hover */
+}
+
+.loadersvg {
+  animation: draw 5s ease;
+  stroke-width: 10px;
+  stroke: white;
+  stroke-dasharray: 4500;
+}
+.incon {
+  left: -8vw;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  100% {
+    stroke-dashoffset: 100;
+  }
+}
+.slide .item:nth-child(3) {
+  left: 50%;
+}
+.slide .item:nth-child(4) {
+  left: calc(50% + 220px);
+}
+.slide .item:nth-child(5) {
+  left: calc(50% + 440px);
+}
+
+/* here n = 0, 1, 2, 3,... */
+.slide .item:nth-child(n + 6) {
+  left: calc(50% + 660px);
+  opacity: 0;
+}
+.imgshd {
+  box-shadow: 10px 10px 20px black;
+}
+
+.clippath {
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.c-clip1 {
+  clip-path: polygon(0 0, 16% 0, 100% 100%, 84% 100%);
+}
+
+.sidel1 {
+  clip-path: polygon(19% 0, 100% 0, 100% 100%, 0 100%);
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 30s linear infinite;
 }

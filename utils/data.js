@@ -1,3 +1,349 @@
+export let sreeKrishnaIAS_IPSAcademy = {
+  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
+  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
+  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
+  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips4.jpeg?alt=media&token=79453734-1bab-402a-b313-a0ad5e324ef0",
+  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips5.jpeg?alt=media&token=30590ba3-45f9-4e3b-950b-39b8addccadd",
+  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips6.jpeg?alt=media&token=d606213d-fb77-451f-8850-82b419503f23",
+  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips7.jpeg?alt=media&token=00e8770e-f028-482c-839a-ece2bbb021a6",
+  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips8.jpeg?alt=media&token=29961107-4f95-4c3d-995d-07932823225e",
+  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips9.jpeg?alt=media&token=a176b59e-36df-4e9b-acf5-5ef24eb4bd22",
+  img10:
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips10.jpeg?alt=media&token=31002978-1bb4-4fad-9a82-d1af0ffbfbd3",
+  img11:
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips11.jpeg?alt=media&token=f3e9336c-ddeb-4493-9e78-3e02a6ae2af3",
+  img12:
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips12.jpeg?alt=media&token=7e651e83-1f33-4bb2-a182-bf468a31ae68",
+  title: "Unlock Your Potential with Sree Krishna IAS / IPS Academy",
+  paragraph1:
+    "Welcome to Sree Krishna IAS / IPS Academy, your gateway to success in the civil service examinations. Nestled in the heart of educational excellence, we pride ourselves on offering unparalleled coaching to aspirants striving to become the next generation of administrative leaders.",
+  section1paragraph1:
+    "At Sree Krishna, we believe in equipping our students with more than just knowledge; we provide them with the tools to excel. Our meticulously curated study material, crafted by seasoned educators, ensures comprehensive coverage of all subjects and topics.",
+  section1paragraph2:
+    "We understand that each aspirant is unique, with distinct strengths and areas for improvement. That's why our approach is tailored to the individual needs of every student. Through personalized guidance and mentorship, we empower our students to unleash their full potential.",
+  section1paragraph3:
+    "Success in the civil service examinations requires more than just theoretical knowledge—it demands practice and refinement. That's why we conduct regular mock tests and practice exams to simulate the exam environment and sharpen our students' skills.",
+  section1paragraph4:
+    "Our expert faculty members are not just teachers; they are mentors, guiding lights on the path to success. With their unparalleled expertise and passion for teaching, they inspire and empower our students to reach new heights.",
+  section1heading1: "About Us",
+  section1heading2: "Our Approach",
+  section1heading3: "Facilities",
+  section2title: "Courses Tailored for Success",
+  section2heading1: "IAS Foundation Course",
+  section2heading2: "IPS Crash Course",
+  section2heading3: "Optional Subject Coaching",
+  section2paragraph1:
+    "Our comprehensive IAS Foundation Course lays the groundwork for success, covering all essential topics and providing a solid foundation for aspirants.",
+  section2paragraph2:
+    "For IPS aspirants seeking last-minute preparation strategies, our intensive IPS Crash Course is the perfect solution, equipping them with the skills and confidence needed to excel.",
+  section2paragraph3:
+    "Master your chosen optional subjects with our specialized coaching, designed to help you ace the mains exam and secure your dream rank.",
+  section3title: "Meet Our Exceptional Faculty",
+  section3heading1: "Experienced Educators",
+  section3heading2: "Dedicated Mentors",
+  section3paragrap1:
+    "Our faculty members bring a wealth of experience to the classroom, with years of expertise in coaching civil service aspirants and a deep understanding of the examination process.",
+  section3paragrap2:
+    "Every student is paired with a dedicated mentor who provides personalized guidance and support, ensuring that no question goes unanswered and no goal goes unachieved.",
+  section4title: "Witness the Power of Success",
+  section4heading1: "Top Ranks Achieved",
+  section4heading2: "Student Testimonials",
+  section4heading3: "Results",
+  section4paragraph1:
+    "Experience the thrill of victory as many of our students achieve top ranks in the civil service exams, securing prestigious positions in the government and making us proud.",
+  section4paragraph2:
+    "Don't just take our word for it; hear from our students themselves. Read their heartfelt testimonials and discover how Sree Krishna IAS / IPS Academy transformed their lives.",
+  section4paragraph3:
+    "Our consistent results speak volumes, with a high success rate and a long list of success stories. Join us on this incredible journey and unlock your potential with Sree Krishna IAS / IPS Academy.",
+};
+export let sreeKrishnaArtsAndScience = {
+  title: "Explore the World of Knowledge with SREE Krishna Arts & Science",
+  paragraph1:
+    "Welcome to SREE Krishna Arts & Science, where education meets excellence. Our institution is committed to providing a holistic learning experience that nurtures intellectual growth and personal development.",
+  section1paragraph1:
+    "At SREE Krishna, we believe in fostering a dynamic learning environment that encourages critical thinking, creativity, and innovation. Our faculty members are passionate educators dedicated to empowering students with the skills and knowledge needed to succeed in today's ever-changing world.",
+  section1paragraph2:
+    "We offer a wide range of undergraduate and postgraduate programs across various disciplines, ensuring that every student finds their passion and realizes their full potential.",
+  section1paragraph3:
+    "Our state-of-the-art facilities and resources provide students with the support they need to excel academically and pursue their extracurricular interests. From well-equipped laboratories to vibrant campus life, SREE Krishna Arts & Science offers a conducive environment for growth and learning.",
+  section1paragraph4:
+    "Through our industry partnerships and internship programs, we provide students with real-world experiences that prepare them for successful careers in their chosen fields. At SREE Krishna, we are committed to shaping future leaders and innovators.",
+  section1heading1: "About Us",
+  section1heading2: "Our Philosophy",
+  section1heading3: "Facilities",
+  section2title: "Academic Programs",
+  section2heading1: "Undergraduate Programs",
+  section2heading2: "Postgraduate Programs",
+  section2heading3: "Certificate Courses",
+  section2paragraph1:
+    "Choose from a diverse range of undergraduate programs tailored to meet the needs of today's industries and professions.",
+  section2paragraph2:
+    "Deepen your knowledge and expertise with our postgraduate programs, designed to prepare you for leadership roles and advanced careers.",
+  section2paragraph3:
+    "Enhance your skill set and broaden your horizons with our certificate courses, offering specialized training in various fields.",
+  section3title: "Faculty Excellence",
+  section3heading1: "Expert Educators",
+  section3heading2: "Mentorship Program",
+  section3paragrap1:
+    "Our faculty members are experienced professionals and scholars who are passionate about teaching and dedicated to student success.",
+  section3paragrap2:
+    "Every student at SREE Krishna Arts & Science is assigned a mentor who provides guidance and support throughout their academic journey, ensuring personalized attention and assistance.",
+  section4title: "Success Stories",
+  section4heading1: "Alumni Achievements",
+  section4heading2: "Student Testimonials",
+  section4heading3: "Accomplishments",
+  section4paragraph1:
+    "Our alumni have gone on to achieve great success in their respective fields, making meaningful contributions to society and the world.",
+  section4paragraph2:
+    "Discover what our students have to say about their experience at SREE Krishna Arts & Science and how it has impacted their lives.",
+  section4paragraph3:
+    "From academic achievements to extracurricular accomplishments, our students consistently excel and shine bright.",
+};
+
+export let sreeKrishnaInternationalCBSESchool = {
+  title: "Welcome to SREE Krishna International CBSE School",
+  paragraph1:
+    "At SREE Krishna International CBSE School, we are committed to providing a world-class education that nurtures curiosity, creativity, and critical thinking in every student. Our school is dedicated to fostering academic excellence, personal growth, and global citizenship.",
+  section1paragraph1:
+    "Our mission is to empower students with the knowledge, skills, and values they need to succeed in the 21st century. With a focus on holistic development, we offer a comprehensive curriculum that integrates academic rigor with experiential learning.",
+  section1paragraph2:
+    "At SREE Krishna, we believe in creating a nurturing and inclusive environment where every student feels valued and supported. Our dedicated faculty members are passionate educators who inspire and motivate students to reach their full potential.",
+  section1paragraph3:
+    "Our state-of-the-art facilities provide students with the resources they need to excel academically, socially, and emotionally. From well-equipped classrooms to modern laboratories and recreational spaces, SREE Krishna International CBSE School offers a conducive learning environment for all.",
+  section1paragraph4:
+    "Through our emphasis on character development, leadership skills, and community service, we prepare students to become responsible global citizens who contribute positively to society.",
+  section1heading1: "About Us",
+  section1heading2: "Our Mission",
+  section1heading3: "Facilities",
+  section2title: "Academic Excellence",
+  section2heading1: "CBSE Curriculum",
+  section2heading2: "Co-Curricular Activities",
+  section2heading3: "Experiential Learning",
+  section2paragraph1:
+    "Our school follows the CBSE curriculum, ensuring a well-rounded education that emphasizes academic rigor, critical thinking, and practical application of knowledge.",
+  section2paragraph2:
+    "In addition to academics, we offer a wide range of co-curricular activities including sports, arts, music, drama, and more, providing students with opportunities to explore their interests and talents.",
+  section2paragraph3:
+    "Experiential learning plays a vital role in our curriculum, with field trips, hands-on projects, and interactive sessions designed to enhance understanding and foster creativity.",
+  section3title: "Dedicated Faculty",
+  section3heading1: "Passionate Educators",
+  section3heading2: "Individualized Attention",
+  section3paragrap1:
+    "Our faculty members are highly qualified professionals who are passionate about teaching and dedicated to student success. They strive to create engaging learning experiences that inspire curiosity and critical thinking.",
+  section3paragrap2:
+    "With small class sizes, our teachers provide individualized attention to each student, ensuring that their unique needs and learning styles are catered to.",
+  section4title: "Student Success",
+  section4heading1: "Academic Achievements",
+  section4heading2: "Extracurricular Accomplishments",
+  section4heading3: "Alumni Stories",
+  section4paragraph1:
+    "Our students consistently excel in academics, with many achieving top scores in CBSE examinations and gaining admission to prestigious universities and colleges.",
+  section4paragraph2:
+    "Beyond academics, our students shine in various extracurricular activities, winning accolades and representing the school at regional, national, and international levels.",
+  section4paragraph3:
+    "Our alumni are leaders in their respective fields, making meaningful contributions to society and the world. Their success stories inspire current students to strive for excellence and make a difference.",
+};
+export let sreeKrishnaInternationalICSchool = {
+  title: "Welcome to SREE Krishna International ICSE School",
+  paragraph1:
+    "Welcome to SREE Krishna International ICSE School, where excellence meets holistic education. Our school is dedicated to providing a nurturing environment that fosters academic excellence, personal growth, and global citizenship.",
+  section1paragraph1:
+    "At SREE Krishna International ICSE School, we are committed to offering a comprehensive curriculum that nurtures the intellectual, emotional, and social development of every student.",
+  section1paragraph2:
+    "Our faculty members are passionate educators who are dedicated to inspiring a love for learning and nurturing the unique talents and abilities of each student.",
+  section1paragraph3:
+    "With state-of-the-art facilities and resources, we provide students with a stimulating learning environment where they can explore, discover, and innovate.",
+  section1paragraph4:
+    "Through our emphasis on character development, leadership skills, and community engagement, we prepare students to become compassionate and responsible global citizens.",
+  section1heading1: "About Us",
+  section1heading2: "Our Vision",
+  section1heading3: "Facilities",
+  section2title: "Academic Excellence",
+  section2heading1: "ICSE Curriculum",
+  section2heading2: "Extracurricular Activities",
+  section2heading3: "Innovative Teaching Methods",
+  section2paragraph1:
+    "Our school follows the ICSE curriculum, providing a comprehensive education that fosters critical thinking, creativity, and problem-solving skills.",
+  section2paragraph2:
+    "In addition to academics, we offer a wide range of extracurricular activities including sports, arts, music, drama, and more, providing students with opportunities to explore their interests and talents.",
+  section2paragraph3:
+    "Our teachers employ innovative teaching methods and interactive learning techniques to engage students and enhance their understanding of various concepts.",
+  section3title: "Dedicated Faculty",
+  section3heading1: "Passionate Educators",
+  section3heading2: "Individualized Attention",
+  section3paragrap1:
+    "Our faculty members are experienced professionals who are passionate about education and dedicated to student success. They strive to create a supportive and engaging learning environment that encourages academic excellence and personal growth.",
+  section3paragrap2:
+    "With small class sizes, our teachers provide individualized attention to each student, allowing them to thrive academically and develop their unique talents.",
+  section4title: "Student Success",
+  section4heading1: "Academic Achievements",
+  section4heading2: "Extracurricular Accomplishments",
+  section4heading3: "Alumni Stories",
+  section4paragraph1:
+    "Our students consistently excel academically, with many achieving top scores in ICSE examinations and gaining admission to prestigious universities and colleges.",
+  section4paragraph2:
+    "Beyond academics, our students shine in various extracurricular activities, winning accolades and representing the school at regional, national, and international levels.",
+  section4paragraph3:
+    "Our alumni are leaders in their respective fields, making significant contributions to society and the world. Their success stories inspire current students to strive for excellence and make a positive impact.",
+};
+
+export let sreeKrishnaCivilServices = {
+  title: "Welcome to SREE Krishna Civil Services Academy",
+  paragraph1:
+    "Welcome to SREE Krishna Civil Services Academy, your gateway to a successful career in the esteemed civil services. Our academy is committed to providing comprehensive coaching and guidance to aspiring civil servants.",
+  section1paragraph1:
+    "At SREE Krishna Civil Services Academy, we believe in holistic preparation that encompasses not only the academic aspects but also the development of critical thinking, leadership skills, and ethical values.",
+  section1paragraph2:
+    "Our experienced faculty members, who are former civil servants and subject matter experts, provide personalized coaching and mentorship to every aspirant, ensuring they are well-equipped to face the challenges of the civil services examinations.",
+  section1paragraph3:
+    "We offer a range of courses tailored to meet the needs of aspirants at different stages of their preparation journey, from foundation courses for beginners to advanced courses for experienced candidates.",
+  section1paragraph4:
+    "Through rigorous mock tests, practice sessions, and one-on-one interactions, we strive to instill confidence and resilience in our students, preparing them not just for the exams, but for a successful career in public service.",
+  section1heading1: "About Us",
+  section1heading2: "Our Approach",
+  section1heading3: "Courses Offered",
+  section2title: "Faculty Excellence",
+  section2heading1: "Experienced Educators",
+  section2heading2: "Personalized Guidance",
+  section2heading3: "Subject Matter Experts",
+  section2paragraph1:
+    "Our faculty members bring a wealth of experience to the classroom, with years of expertise in coaching civil service aspirants and a deep understanding of the examination process.",
+  section2paragraph2:
+    "Every student receives personalized guidance and support from our faculty, who are committed to helping them identify their strengths and weaknesses and devise effective strategies for success.",
+  section2paragraph3:
+    "Our faculty includes subject matter experts who provide specialized coaching in various subjects, ensuring that our students receive comprehensive preparation for all aspects of the civil services examinations.",
+  section3title: "Success Stories",
+  section3heading1: "Top Ranks Achieved",
+  section3heading2: "Student Testimonials",
+  section3paragrap1:
+    "Many of our students have achieved top ranks in the civil services examinations, securing prestigious positions in the government and making us proud.",
+  section3paragrap2:
+    "Read what our students have to say about their experience at SREE Krishna Civil Services Academy and how it has helped them in their journey towards becoming civil servants.",
+  section4title: "Infrastructure",
+  section4heading1: "State-of-the-Art Facilities",
+  section4heading2: "Library and Resources",
+  section4heading3: "Technology Integration",
+  section4paragraph1:
+    "Our academy is equipped with state-of-the-art facilities including spacious classrooms, modern lecture halls, and advanced technology infrastructure to facilitate effective learning.",
+  section4paragraph2:
+    "Students have access to a vast library stocked with a wide range of reference materials, journals, and digital resources to support their academic endeavors.",
+  section4paragraph3:
+    "We leverage technology to enhance the learning experience, with smart classrooms, online resources, and digital platforms for interactive learning and collaboration.",
+};
+export let muppadiAcademy = {
+  title: "Welcome to Muppadi Academy",
+  paragraph1:
+    "Welcome to Muppadi Academy, your premier destination for comprehensive army training. Our academy is dedicated to providing top-notch training and guidance to aspiring soldiers, preparing them for the challenges of military life with excellence.",
+  section1paragraph1:
+    "At Muppadi Academy, we uphold the highest standards of discipline, honor, and commitment. Our training programs are designed to instill in recruits the core values of the armed forces, including integrity, courage, and selflessness.",
+  section1paragraph2:
+    "Our experienced instructors, many of whom are former military personnel, provide rigorous training in physical fitness, weapons handling, tactical maneuvers, and leadership skills.",
+  section1paragraph3:
+    "We offer a range of courses tailored to meet the needs of recruits at different stages of their training journey, from basic training for new recruits to specialized courses for experienced soldiers.",
+  section1paragraph4:
+    "Through immersive training exercises, simulated combat scenarios, and real-world simulations, we ensure that our graduates are fully prepared to serve their country with honor and distinction.",
+  section1heading1: "About Us",
+  section1heading2: "Our Values",
+  section1heading3: "Training Programs",
+  section2title: "Instructor Expertise",
+  section2heading1: "Experienced Instructors",
+  section2heading2: "Specialized Training",
+  section2heading3: "Leadership Development",
+  section2paragraph1:
+    "Our instructors bring a wealth of experience to the academy, with years of service in the armed forces and specialized training in various military disciplines.",
+  section2paragraph2:
+    "We offer specialized training programs in areas such as marksmanship, survival skills, combat medicine, and more, ensuring that our recruits are well-rounded and capable soldiers.",
+  section2paragraph3:
+    "Leadership development is at the core of our training philosophy. Through practical exercises and mentorship, we empower our recruits to become effective leaders who can inspire and motivate their teams.",
+  section3title: "Success Stories",
+  section3heading1: "Graduate Achievements",
+  section3heading2: "Testimonials",
+  section3paragrap1:
+    "Many of our graduates have gone on to achieve great success in their military careers, serving with distinction in various branches of the armed forces.",
+  section3paragrap2:
+    "Read what our recruits have to say about their experience at Muppadi Academy and how it has prepared them for the challenges of military life.",
+  section4title: "Infrastructure",
+  section4heading1: "Campus Facilities",
+  section4heading2: "Training Equipment",
+  section4heading3: "Logistics Support",
+  section4paragraph1:
+    "Our academy is equipped with state-of-the-art facilities including barracks, mess halls, training grounds, and recreational areas to provide a comfortable and conducive environment for our recruits.",
+  section4paragraph2:
+    "We provide access to the latest training equipment and technology, including firearms, simulation systems, obstacle courses, and more, to ensure that our recruits receive the best possible training.",
+  section4paragraph3:
+    "From transportation to accommodation, our logistics team ensures that all logistical aspects of training are efficiently managed, allowing our recruits to focus on their training without any distractions.",
+};
+export let sreeKrishnaNEET_JEE_Apache = {
+  title: "Welcome to SREE Krishna NEET/JEE/Apache Academy",
+  paragraph1:
+    "Welcome to SREE Krishna NEET/JEE/Apache Academy, your gateway to success in medical, engineering, and aviation fields. Our academy is committed to providing comprehensive coaching and guidance to aspirants, helping them excel in their chosen career paths.",
+  section1heading: "About Us",
+  section1paragraph1:
+    "SREE Krishna NEET/JEE/Apache Academy is dedicated to providing top-notch coaching for NEET, JEE, and Apache aspirants. With a team of experienced faculty and state-of-the-art facilities, we ensure that every student receives the best possible preparation.",
+  section2title: "Courses Offered",
+  section2heading1: "NEET Preparation",
+  section2heading2: "JEE Preparation",
+  section2heading3: "Apache Pilot Training",
+  section2paragraph1:
+    "Our NEET preparation courses cover all subjects with in-depth study materials, regular practice tests, and personalized attention to help students crack the medical entrance exam with flying colors.",
+  section2paragraph2:
+    "For JEE aspirants, we offer comprehensive coaching that includes rigorous practice sessions, concept clarity classes, and mock tests to help students secure admission to premier engineering colleges.",
+  section2paragraph3:
+    "Aspiring pilots can enroll in our Apache pilot training program, which combines classroom instruction with hands-on flying experience under the guidance of certified flight instructors.",
+  section3title: "Faculty Excellence",
+  section3heading1: "Experienced Educators",
+  section3heading2: "Specialized Training",
+  section3paragraph1:
+    "Our faculty members are highly experienced and well-versed in their respective fields. They bring a wealth of knowledge and expertise to the classroom, ensuring that students receive quality education and guidance.",
+  section3paragraph2:
+    "We provide specialized training sessions conducted by industry experts to help students gain practical insights and develop the skills required to excel in their chosen fields.",
+  section4title: "Success Stories",
+  section4heading1: "Top Ranks Achieved",
+  section4heading2: "Student Testimonials",
+  section4heading3: "Alumni Success",
+  section4paragraph1:
+    "Many of our students have secured top ranks in NEET, JEE, and Apache examinations, paving their way to successful careers in medicine, engineering, and aviation. Their achievements are a testament to our academy's dedication to excellence.",
+  section4paragraph2:
+    "Read what our students have to say about their experience at SREE Krishna NEET/JEE/Apache Academy and how it has helped them realize their dreams and aspirations.",
+  section4paragraph3:
+    "Our alumni have gone on to achieve remarkable success in their respective fields, serving as inspirations for current and future students. Their journey from our academy to the pinnacle of their professions is a testament to the quality of education and training provided at SREE Krishna NEET/JEE/Apache Academy.",
+};
+export let sreeKrishnaDistanceEducation = {
+  title: "Welcome to SREE Krishna Distance Education",
+  paragraph1:
+    "Welcome to SREE Krishna Distance Education, your partner in pursuing quality education from the comfort of your home. Our institution is committed to providing comprehensive distance learning programs that cater to the diverse educational needs of students across various fields.",
+  section1heading: "About Us",
+  section1paragraph1:
+    "SREE Krishna Distance Education is dedicated to breaking barriers to education by offering flexible and accessible learning opportunities. Whether you are a working professional, a stay-at-home parent, or someone unable to attend traditional classes, our distance education programs are designed to accommodate your schedule and learning preferences.",
+  section2title: "Programs Offered",
+  section2heading1: "Degree Programs",
+  section2heading2: "Diploma Courses",
+  section2heading3: "Certificate Programs",
+  section2paragraph1:
+    "We offer a wide range of degree programs including undergraduate and postgraduate courses in various disciplines such as arts, science, commerce, and management. Our curriculum is designed to be rigorous and industry-relevant, ensuring that students acquire the knowledge and skills needed to succeed in their chosen fields.",
+  section2paragraph2:
+    "Our diploma courses provide specialized training in specific fields, allowing students to gain practical skills and expertise that are directly applicable to their careers. From computer applications to hospitality management, our diploma programs cover diverse areas to meet the needs of learners.",
+  section2paragraph3:
+    "Our certificate programs offer short-term courses focused on specific skills or areas of interest. Whether you want to enhance your professional skills, explore a new hobby, or pursue personal development goals, our certificate programs provide flexible and affordable learning options.",
+  section3title: "Faculty and Support",
+  section3heading1: "Experienced Instructors",
+  section3heading2: "Student Support Services",
+  section3paragraph1:
+    "Our faculty members are experienced educators and industry professionals who are dedicated to providing quality education and guidance to our distance learning students. They bring a wealth of knowledge and expertise to the virtual classroom, ensuring that students receive a rich and engaging learning experience.",
+  section3paragraph2:
+    "We offer a range of support services to our students, including academic advising, tutoring, library access, and online resources. Our dedicated support team is available to assist students with any questions or concerns they may have throughout their academic journey.",
+  section4title: "Success Stories",
+  section4heading1: "Student Achievements",
+  section4heading2: "Testimonials",
+  section4heading3: "Alumni Success",
+  section4paragraph1:
+    "Many of our distance education students have achieved remarkable success in their careers and academic pursuits, leveraging the knowledge and skills acquired through our programs. From securing promotions to pursuing further studies, our students have made significant strides in their professional and personal lives.",
+  section4paragraph2:
+    "Read what our students have to say about their experience with SREE Krishna Distance Education and how it has helped them overcome educational barriers and achieve their goals.",
+  section4paragraph3:
+    "Our alumni have gone on to make meaningful contributions in their respective fields, serving as leaders and innovators in diverse industries. Their success stories inspire current and future students to pursue excellence and make a positive impact in their communities.",
+};
+
 export const mba = {
   h1: "The Master of Business Administration (MBA) is a graduate-level degree",
   img: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fimg1.jpeg?alt=media&token=25a3049c-6482-4b5a-874e-664e40265be5",
