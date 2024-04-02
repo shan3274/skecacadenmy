@@ -57,21 +57,21 @@ export let sreeKrishnaIAS_IPSAcademy = {
     "Our consistent results speak volumes, with a high success rate and a long list of success stories. Join us on this incredible journey and unlock your potential with Sree Krishna IAS / IPS Academy.",
 };
 export let sreeKrishnaArtsAndScience = {
-  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
-  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
-  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
-  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips4.jpeg?alt=media&token=79453734-1bab-402a-b313-a0ad5e324ef0",
-  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips5.jpeg?alt=media&token=30590ba3-45f9-4e3b-950b-39b8addccadd",
-  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips6.jpeg?alt=media&token=d606213d-fb77-451f-8850-82b419503f23",
-  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips7.jpeg?alt=media&token=00e8770e-f028-482c-839a-ece2bbb021a6",
-  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips8.jpeg?alt=media&token=29961107-4f95-4c3d-995d-07932823225e",
-  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips9.jpeg?alt=media&token=a176b59e-36df-4e9b-acf5-5ef24eb4bd22",
+  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci1.jpeg?alt=media&token=56e7e6b6-2f03-49e5-b0dd-8257f394de9d",
+  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci3.jpeg?alt=media&token=7418b653-daed-4d31-ab28-d3bd69b61ab7",
+  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci2.jpeg?alt=media&token=b80e68ec-1e66-4f5f-8c33-731a82099c8e",
+  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci4.jpeg?alt=media&token=d353b268-ebeb-4438-a274-968b4f0c6f42",
+  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci5.jpeg?alt=media&token=d8192148-a79a-4f45-8d5a-991b1b660546",
+  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci6.jpeg?alt=media&token=9306f02f-5e42-4b6f-8edc-a3e76787983d",
+  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci7.jpeg?alt=media&token=17c5163a-c2bc-4c23-9325-64714431ad3d",
+  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci8.jpeg?alt=media&token=cee69dd7-dbed-42fa-a4ac-ade5c71c19d3",
+  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci9.jpeg?alt=media&token=597a7e99-1ba8-4273-966d-52a2e482c3c4",
   img10:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips10.jpeg?alt=media&token=31002978-1bb4-4fad-9a82-d1af0ffbfbd3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci10.jpeg?alt=media&token=37e224a8-9412-4741-9e47-fd62edf19944",
   img11:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips11.jpeg?alt=media&token=f3e9336c-ddeb-4493-9e78-3e02a6ae2af3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci11.jpeg?alt=media&token=cfaec508-6680-46ad-b3ae-d3fe22c2867e",
   img12:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips12.jpeg?alt=media&token=7e651e83-1f33-4bb2-a182-bf468a31ae68",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci12.jpeg?alt=media&token=bb037b7d-6e56-4ff0-88c6-33f551ce8732",
   title: "Explore the World of Knowledge with SREE Krishna Arts & Science",
   paragraph1:
     "Welcome to SREE Krishna Arts & Science, where education meets excellence. Our institution is committed to providing a holistic learning experience that nurtures intellectual growth and personal development.",
@@ -116,21 +116,21 @@ export let sreeKrishnaArtsAndScience = {
 };
 
 export let sreeKrishnaInternationalCBSESchool = {
-  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
-  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
-  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
-  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips4.jpeg?alt=media&token=79453734-1bab-402a-b313-a0ad5e324ef0",
-  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips5.jpeg?alt=media&token=30590ba3-45f9-4e3b-950b-39b8addccadd",
-  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips6.jpeg?alt=media&token=d606213d-fb77-451f-8850-82b419503f23",
-  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips7.jpeg?alt=media&token=00e8770e-f028-482c-839a-ece2bbb021a6",
-  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips8.jpeg?alt=media&token=29961107-4f95-4c3d-995d-07932823225e",
-  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips9.jpeg?alt=media&token=a176b59e-36df-4e9b-acf5-5ef24eb4bd22",
+  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse2.jpeg?alt=media&token=60f09894-c336-4f80-8157-ebddc16fe286 ",
+  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse1.jpeg?alt=media&token=b80a8007-0996-480e-b740-b611022f8b45",
+  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse7.jpeg?alt=media&token=cc88c38d-5327-48e2-b419-f9eadbc49460",
+  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse3.jpeg?alt=media&token=32e3048f-4f16-4339-82a8-08d3304ba9fa",
+  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse5.jpeg?alt=media&token=8089d00b-6df2-48cb-8ca2-e048d72424e4",
+  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse6.jpeg?alt=media&token=53467f50-cf68-4948-9b6d-ca922b9798fa",
+  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse4.jpeg?alt=media&token=94c4a5dd-4db7-4408-8e29-9aa15d09a573",
+  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse8.jpeg?alt=media&token=9d96062b-33c7-4c61-871b-785c6a5b443e",
+  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse9.jpeg?alt=media&token=16818647-3faa-4a64-827c-eb6ec3738104",
   img10:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips10.jpeg?alt=media&token=31002978-1bb4-4fad-9a82-d1af0ffbfbd3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse10.jpeg?alt=media&token=ef4987b5-ecae-4269-bad0-052979656808",
   img11:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips11.jpeg?alt=media&token=f3e9336c-ddeb-4493-9e78-3e02a6ae2af3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse11.jpeg?alt=media&token=99d8d1a8-071a-45cb-9abf-ea23da6fbad2",
   img12:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips12.jpeg?alt=media&token=7e651e83-1f33-4bb2-a182-bf468a31ae68",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse12.jpeg?alt=media&token=272db23e-6fbe-4c25-8cc4-2142541d4289",
   title: "Welcome to SREE Krishna International CBSE School",
   paragraph1:
     "At SREE Krishna International CBSE School, we are committed to providing a world-class education that nurtures curiosity, creativity, and critical thinking in every student. Our school is dedicated to fostering academic excellence, personal growth, and global citizenship.",
@@ -174,21 +174,21 @@ export let sreeKrishnaInternationalCBSESchool = {
     "Our alumni are leaders in their respective fields, making meaningful contributions to society and the world. Their success stories inspire current students to strive for excellence and make a difference.",
 };
 export let sreeKrishnaInternationalICSchool = {
-  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
-  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
-  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
-  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips4.jpeg?alt=media&token=79453734-1bab-402a-b313-a0ad5e324ef0",
-  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips5.jpeg?alt=media&token=30590ba3-45f9-4e3b-950b-39b8addccadd",
-  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips6.jpeg?alt=media&token=d606213d-fb77-451f-8850-82b419503f23",
-  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips7.jpeg?alt=media&token=00e8770e-f028-482c-839a-ece2bbb021a6",
-  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips8.jpeg?alt=media&token=29961107-4f95-4c3d-995d-07932823225e",
-  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips9.jpeg?alt=media&token=a176b59e-36df-4e9b-acf5-5ef24eb4bd22",
+  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc1.jpeg?alt=media&token=08096c41-9fcc-4d0f-87c7-24642746e17a",
+  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficse2.jpeg?alt=media&token=c1cf07ee-2ac7-43a3-9b2f-0a00c54e8d17",
+  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc3.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc4.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc5.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc6.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc7.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc8.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
+  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc9.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
   img10:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips10.jpeg?alt=media&token=31002978-1bb4-4fad-9a82-d1af0ffbfbd3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc10.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
   img11:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips11.jpeg?alt=media&token=f3e9336c-ddeb-4493-9e78-3e02a6ae2af3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc11.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
   img12:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips12.jpeg?alt=media&token=7e651e83-1f33-4bb2-a182-bf468a31ae68",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc12.jpeg?alt=media&token=f9e01636-32e4-4767-b37c-a2a60acaa4e0",
   title: "Welcome to SREE Krishna International ICSE School",
   paragraph1:
     "Welcome to SREE Krishna International ICSE School, where excellence meets holistic education. Our school is dedicated to providing a nurturing environment that fosters academic excellence, personal growth, and global citizenship.",
