@@ -11,10 +11,10 @@ const Chairperson = () => {
           <h1 className="text-[40px] font-Comfortaa">
             Dr.G.SARAVANAN <span className="text-[20px]">(M.B.A,Ph.D)</span>
           </h1>
-          <h2 className="font-poppins text-[20px] text-gray-500">
+          <h2 className="font-poppins text-[20px] ">
             CHAIRMAN/MANAGING TRUSTEE
           </h2>
-          <p className="text-[12px] font-poppins w-[90%]">
+          <p className="text-[12px] text-gray-500 font-poppins w-[90%]">
             WE ARE IN THE BUSINESS OF EDUCATIONAL INSTITUTIONS, TRAINING
             ACADEMIES, HEALTHCARE AND TRANSPORT. SKCE WAS STARTED IN THE YEAR OF
             2010 AND OFFERS 5 DISCIPLINES OF ENGINEERING. WE HAVE 616 STUDENTS
