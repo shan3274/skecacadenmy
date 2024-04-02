@@ -58,9 +58,9 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="absolute w-[90%] lg:w-[40%] h-[25%] bg-black/30 backdrop-blur-sm z-[3] rounded-[50px] top-[40%] flex flex-col items-center justify-center gap-5 duration-300"
+            className="absolute w-[90%] lg:w-[40%] h-[30%] bg-black/30 backdrop-blur-sm z-[3] rounded-[50px] top-[40%] flex flex-col items-center justify-center gap-5 duration-300 p-5"
           >
-            <h1 className="lg:text-[35px] text-[25px]  lg:w-[70%] text-center font-[700] font-Comfortaa">
+            <h1 className="lg:text-[30px] text-[25px]   text-center font-[700] font-Comfortaa">
               {data.admissionsAnnouncement.title}
             </h1>
             <button className="lg:text-[25px] font-sans px-5 py-3 bg-[#ae8949] text- rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">

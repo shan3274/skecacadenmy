@@ -18,7 +18,7 @@ const Result = () => {
   const scrollTrigger = screenHeight - screenHeight / 30;
 
   return (
-    <div className="w-full min-h-[55vh] relative flex flex-col items-center justify-center bg-[#F6F9F5] pb-10 gap-5 overflow-hidden">
+    <div className="w-full min-h-[70vh] py-10 relative flex flex-col items-center justify-center bg-[#F6F9F5] pb-10 gap-5 overflow-hidden">
       <div className="absolute left-0 top-0 w-[400px] h-[20px]   bg-[#392346]">
         <div className="relative w-full h-full">
           <div className="absolute right-[-20px] bg-[#392346] top-0 w-[20px] h-[20px] ryttri"></div>
@@ -27,7 +27,7 @@ const Result = () => {
 
       <div className="absolute right-0 bottom-0 w-[400px] h-[20px]   bg-[#392346]">
         <div className="relative w-full h-full">
-          <div className="absolute left-[-20px] bg-[#392346] top-0 w-[20px] h-[20px] ryttri1"></div>
+          <div className="absolute left-[-20px] bg-[#392346] top-[.5px] w-[20px] h-[20px] ryttri1"></div>
         </div>
       </div>
       <motion.h1
