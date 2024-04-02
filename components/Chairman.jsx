@@ -35,7 +35,7 @@ const Chairman = () => {
       >
         <p className=" font-titlefont text-[20px] text-[#ffffff]">Welcome To</p>
         <motion.p className="font-[700] text-4xl text-[#f5cf47]  text-center bg-clip-text  py-4 pr-5">
-          SREE KRISHNA COLLEGE OF ENGINEERING
+        SKC GROUP OF INSTITUTION
         </motion.p>
         <p className=" w-[60%] text-white text-[15px] text-center bg-black/30 backdrop-blur-lg px-5 py-5 rounded-3xl">
           Sree Krishna College of Engineering in Vellore was inaugurated in

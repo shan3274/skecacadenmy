@@ -43,3 +43,10 @@
   border: 1px solid #000;
   margin-bottom: 10px;
 }
+
+.ryttri {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.ryttri1 {
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}

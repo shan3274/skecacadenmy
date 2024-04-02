@@ -42,7 +42,7 @@ const Hero = () => {
     <div id="hero-content" className="w-full h-screen relative">
       <Header scrollLength={scrollLength} />
       <main className="w-full h-screen bg-[#bababa] flex items-center justify-center overflow-hidden text-white cursor-default relative">
-        <div className="absolute flex items-center w-full h-[40px] bg-black/30 backdrop-blur-sm z-[2] bottom-5">
+        <div className="absolute flex items-center w-full h-[40px] bg-black/30 backdrop-blur-sm z-[3] bottom-5">
           <div className="marquee-container">
             <div className="marquee-content">
               {data.tiedUpWithVELS.description}
@@ -50,6 +50,7 @@ const Hero = () => {
           </div>
         </div>
 
+        <div className="bg-black/40 w-full h-screen absolute z-[2]"></div>
         <AnimatePresence>
           <motion.div
             key="admissions"
@@ -57,9 +58,9 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="absolute w-[90%] lg:w-[50%] h-[40%] bg-black/40 z-[3] rounded-[50px] top-[30%] flex flex-col items-center justify-center gap-5 duration-300"
+            className="absolute w-[90%] lg:w-[40%] h-[25%] bg-black/30 backdrop-blur-sm z-[3] rounded-[50px] top-[40%] flex flex-col items-center justify-center gap-5 duration-300"
           >
-            <h1 className="lg:text-[40px] text-[30px]  lg:w-[70%] text-center font-[700] font-Comfortaa">
+            <h1 className="lg:text-[35px] text-[25px]  lg:w-[70%] text-center font-[700] font-Comfortaa">
               {data.admissionsAnnouncement.title}
             </h1>
             <button className="lg:text-[25px] font-sans px-5 py-3 bg-[#ae8949] text- rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">
