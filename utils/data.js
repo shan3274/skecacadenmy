@@ -1,3 +1,5 @@
+
+
 export let sreeKrishnaIAS_IPSAcademy = {
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
@@ -349,21 +351,21 @@ export let muppadiAcademy = {
     "From transportation to accommodation, our logistics team ensures that all logistical aspects of training are efficiently managed, allowing our recruits to focus on their training without any distractions.",
 };
 export let sreeKrishnaNEET_JEE_Apache = {
-  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
-  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
-  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
-  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips4.jpeg?alt=media&token=79453734-1bab-402a-b313-a0ad5e324ef0",
-  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips5.jpeg?alt=media&token=30590ba3-45f9-4e3b-950b-39b8addccadd",
-  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips6.jpeg?alt=media&token=d606213d-fb77-451f-8850-82b419503f23",
-  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips7.jpeg?alt=media&token=00e8770e-f028-482c-839a-ece2bbb021a6",
-  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips8.jpeg?alt=media&token=29961107-4f95-4c3d-995d-07932823225e",
-  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips9.jpeg?alt=media&token=a176b59e-36df-4e9b-acf5-5ef24eb4bd22",
+  img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee1.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee2.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee3.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img4: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee4.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img5: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee5.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img6: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee6.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img7: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee7.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img8: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee8.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
+  img9: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee9.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
   img10:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips10.jpeg?alt=media&token=31002978-1bb4-4fad-9a82-d1af0ffbfbd3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee10.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
   img11:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips11.jpeg?alt=media&token=f3e9336c-ddeb-4493-9e78-3e02a6ae2af3",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee11.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
   img12:
-    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips12.jpeg?alt=media&token=7e651e83-1f33-4bb2-a182-bf468a31ae68",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee12.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
   title: "Welcome to SREE Krishna NEET/JEE/Apache Academy",
   paragraph1:
     "Welcome to SREE Krishna NEET/JEE/Apache Academy, your gateway to success in medical, engineering, and aviation fields. Our academy is committed to providing comprehensive coaching and guidance to aspirants, helping them excel in their chosen career paths.",

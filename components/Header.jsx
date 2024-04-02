@@ -37,7 +37,6 @@ const Header = ({ scrollLength, currHeight }) => {
       name: "SREE Krishna international ICSE school",
       pathName: "/academy/icseschool",
     },
-    { name: "SREE Krishna Civil services", pathName: "/academy/civilservice" },
     {
       name: "Muppadi academy ( army training)",
       pathName: "/academy/armytraining",
