@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import img1 from "@/public/chairman.jpg";
+import img1 from "@/public/chairman.jpeg";
 
 const Chairperson = () => {
   return (
@@ -32,7 +32,7 @@ const Chairperson = () => {
             src={img1}
             width={0}
             height={0}
-            className="w-[90%] rounded-lg drop-shadow-xl"
+            className="w-[70%] rounded-lg drop-shadow-xl"
           />
         </div>
       </div>
