@@ -9,7 +9,7 @@ const Chairperson = () => {
       <div className="w-[100%] min-h-[60vh] flex items-center justify-around gap-5 flex-wrap bg-[#c0b9dd]">
         <div className="w-[600px] h-[60vh] flex justify-center flex-col gap-5">
           <h1 className="text-[40px] font-Comfortaa">
-            Dr.G.SARAVANAN (M.B.A,Ph.D)
+            Dr.G.SARAVANAN <span className="text-[20px]">(M.B.A,Ph.D)</span>
           </h1>
           <h2 className="font-poppins text-[20px] text-gray-500">
             CHAIRMAN/MANAGING TRUSTEE

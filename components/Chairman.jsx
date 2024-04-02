@@ -3,7 +3,7 @@ import useElementYPosition from "@/hooks/useElementYPosition";
 import { motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import { ImagesSlider } from "./ImageSlider";
-
+import { chairmaindata } from "@/utils/data";
 
 const Chairman = () => {
   const elementRef1 = useRef(null);
@@ -35,19 +35,10 @@ const Chairman = () => {
       >
         <p className=" font-titlefont text-[20px] text-[#ffffff]">Welcome To</p>
         <motion.p className="font-[700] text-4xl text-[#f5cf47]  text-center bg-clip-text  py-4 pr-5">
-        SKC GROUP OF INSTITUTION
+          SKC GROUP OF INSTITUTION
         </motion.p>
         <p className=" w-[60%] text-white text-[15px] text-center bg-black/30 backdrop-blur-lg px-5 py-5 rounded-3xl">
-          Sree Krishna College of Engineering in Vellore was inaugurated in
-          August 2010 by Vellore District Collector Mr.S. Rajendran. SKCE is
-          managed by Lord Sree Krishna Trust. The founder of the Trust, Dr. A.
-          Aranganathan, is a socialist with rich experience in Educational
-          Institutions. Having achieved an inevitable reputation in his own
-          profession, a keen social activist and visionary, felt the need of
-          higher education at affordable cost to everyone. The college excels in
-          Infrastructure and has highly qualified and dedicated faculties and
-          well equipped labs and library with huge number of collections and
-          e-journals.
+          {chairmaindata.paragraph1}
         </p>
         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
           <span>Read more →</span>
