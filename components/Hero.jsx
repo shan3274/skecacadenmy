@@ -6,6 +6,7 @@ import useScroll from "@/hooks/useScroll";
 import Header from "./Header";
 import { getElement } from "@/utils/firebase";
 import { chairmaindata } from "@/utils/data";
+import Link from "next/link"
 
 const Hero = () => {
   let bg = "/bgmain.mp4";
@@ -62,9 +63,12 @@ const Hero = () => {
             <h1 className="lg:text-[30px] text-[25px]   text-center font-[700] font-Comfortaa">
               {data.admissionsAnnouncement.title}
             </h1>
-            <button className="text-[15px] font-sans px-5 py-3 bg-[#ae8949]  rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]">
+            <Link
+              href="/admission"
+              className="text-[15px] font-sans px-5 py-3 bg-[#ae8949]  rounded-lg hover:scale-[1.05] duration-75 hover:bg-[#dbae60]"
+            >
               {data.admissionsAnnouncement.buttonText}
-            </button>
+            </Link>
           </motion.div>
         </AnimatePresence>
         <video

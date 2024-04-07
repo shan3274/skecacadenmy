@@ -67,76 +67,99 @@ const Page = () => {
       sets3rimg(datas.s3rimg);
     }
   }, [router.query.slugs, datas]);
+  const [value, setValue] = useState();
 
   const calldata = async () => {
     if (router.query.slugs == "mba") {
       setDatas(mba);
+      setValue(0);
     }
     if (router.query.slugs == "bba") {
       setDatas(bba);
+      setValue(1);
     }
     if (router.query.slugs == "bcom") {
       setDatas(bcom);
-    }
-    if (router.query.slugs == "bscyoga") {
-      setDatas(bscYoga);
-    }
-    if (router.query.slugs == "bahonsenglish") {
-      setDatas(baHonsEnglish);
-    }
-    if (router.query.slugs == "mscyoga") {
-      setDatas(mscYoga);
-    }
-    if (router.query.slugs == "diplomayoga") {
-      setDatas(diplomaYoga);
-    }
-    if (router.query.slugs == "mscastrology") {
-      setDatas(maAstrology);
-    }
-    if (router.query.slugs == "bscanimation") {
-      setDatas(bscAnimation);
-    }
-    if (router.query.slugs == "makarnaticmusic") {
-      setDatas(maKarnaticMusic);
-    }
-    if (router.query.slugs == "mabharatanatyam") {
-      setDatas(maBharatanatyam);
-    }
-    if (router.query.slugs == "diplomainastrology") {
-      setDatas(diplomaAstrology);
+      setValue(2);
     }
     if (router.query.slugs == "bahonseconomics") {
       setDatas(baHonsEconomics);
+      setValue(3);
+    }
+    if (router.query.slugs == "bahonsenglish") {
+      setDatas(baHonsEnglish);
+      setValue(4);
     }
     if (router.query.slugs == "bscvisualcomununication") {
       setDatas(bscVisualCommunication);
+      setValue(5);
+    }
+    if (router.query.slugs == "bscanimation") {
+      setDatas(bscAnimation);
+      setValue(6);
     }
     if (router.query.slugs == "mscvisualcomununication") {
       setDatas(mscVisualCommunication);
-    }
-    if (router.query.slugs == "bawesternclassicalmusic") {
-      setDatas(baWesternClassicalMusic);
-    }
-    if (router.query.slugs == "mschotelcateringmanagement") {
-      setDatas(mscHotelCateringManagement);
-    }
-    if (router.query.slugs == "bschotelcateringmanagement") {
-      setDatas(bscHotelCateringManagement);
+      setValue(7);
     }
     if (router.query.slugs == "diplomahotelcateringmanagement") {
       setDatas(diplomaHotelCateringManagement);
+      setValue(8);
+    }
+    if (router.query.slugs == "bschotelcateringmanagement") {
+      setDatas(bscHotelCateringManagement);
+      setValue(9);
     }
     if (router.query.slugs == "bscfoodservicemanagementappliednutrition") {
       setDatas(bscFoodServiceManagement);
+      setValue(10);
+    }
+    if (router.query.slugs == "mschotelcateringmanagement") {
+      setDatas(mscHotelCateringManagement);
+      setValue(11);
+    }
+    if (router.query.slugs == "bscyoga") {
+      setDatas(bscYoga);
+      setValue(12);
+    }
+    if (router.query.slugs == "mscyoga") {
+      setDatas(mscYoga);
+      setValue(13);
+    }
+    if (router.query.slugs == "diplomayoga") {
+      setDatas(diplomaYoga);
+      setValue(14);
+    }
+    if (router.query.slugs == "mscastrology") {
+      setDatas(maAstrology);
+      setValue(15);
+    }
+    if (router.query.slugs == "diplomainastrology") {
+      setDatas(diplomaAstrology);
+      setValue(16);
+    }
+    if (router.query.slugs == "bawesternclassicalmusic") {
+      setDatas(baWesternClassicalMusic);
+      setValue(17);
+    }
+    if (router.query.slugs == "makarnaticmusic") {
+      setDatas(maKarnaticMusic);
+      setValue(18);
+    }
+    if (router.query.slugs == "mabharatanatyam") {
+      setDatas(maBharatanatyam);
+      setValue(19);
     }
   };
 
   let bgvideo = "/bgmba.mp4";
 
+  const dep = "program";
+
   return (
     datas !== undefined && (
       <div className="w-full flex items-center justify-center flex-col">
-        <Header scrollLength={scrollLength} />
+        <Header scrollLength={scrollLength} value={value} department={dep} />
         <div className="w-full h-screen flex items-center justify-center relative ">
           <video
             src={bgvideo}

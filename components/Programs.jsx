@@ -90,7 +90,6 @@ const Programs = () => {
   let [img, setImg] = useState();
   const [url, setUrl] = useState("mba");
 
- 
   const calldata = async () => {
     if (url == "mba") {
       setData(mba);
@@ -153,6 +152,11 @@ const Programs = () => {
       setData(bscFoodServiceManagement);
     }
   };
+
+  const [activebtn, setActivebtn] = useState(0);
+
+  console.log(activebtn);
+
   useEffect(() => {
     calldata();
     if (data !== undefined) {
@@ -299,16 +303,25 @@ const Programs = () => {
           </div>
         </div>
         <div className="w-[80%] relative bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
-          {program.map((item) => {
+          {program.map((item, key) => {
             return (
               <button
                 onClick={() => {
                   if (item.database !== undefined) {
                     setUrl(item.database);
+                    setActivebtn(key);
                     calldata();
                   }
                 }}
-                className="text-black  text-[13px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
+                className={
+                  activebtn != key
+                    ? "text-black  text-[13px] font-poppins px-2 py-1 rounded-full  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[110%] after:left-0 after:hover:w-full "
+                    : "text-black  text-[13px] font-poppins px-2 py-1 rounded-full  after:duration-300 relative "
+                }
+                style={{
+                  backgroundColor: key == activebtn ? "black" : "white",
+                  color: key == activebtn ? "white" : "black",
+                }}
               >
                 {item.name}
               </button>

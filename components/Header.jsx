@@ -20,7 +20,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-const Header = ({ scrollLength, currHeight }) => {
+const Header = ({ scrollLength, currHeight, value = 0, department }) => {
   const [search, setSearch] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -97,6 +97,11 @@ const Header = ({ scrollLength, currHeight }) => {
 
   const [disData, setDisData] = useState([]);
 
+  const [activebtn, setActivebtn] = useState(value);
+
+  useEffect(() => {
+    setActivebtn(value);
+  }, [value]);
   return (
     <>
       <div className="lg:hidden">
@@ -146,11 +151,22 @@ const Header = ({ scrollLength, currHeight }) => {
                   onMouseLeave={() => setSubMenu(false)}
                   className="w-full left-0 min-h-[100%] absolute top-[100%] bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5"
                 >
-                  {disData.map((item) => {
+                  {disData.map((item, key) => {
                     return (
                       <Link
-                        className="text-black text-[10px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[100%] after:left-0 after:hover:w-full "
+                        className={
+                          activebtn != key
+                            ? "text-black px-2 py-1 rounded-full text-[10px] font-poppins  after:duration-300 relative after:absolute after:w-0 after:h-[1px] after:bg-black after:top-[100%] after:left-0 after:hover:w-full "
+                            : "text-black px-2 py-1 rounded-full text-[10px] font-poppins relative  "
+                        }
                         href={item.pathName}
+                        onClick={() => {
+                          setActivebtn(key);
+                        }}
+                        style={{
+                          backgroundColor: key == activebtn ? "black" : "white",
+                          color: key == activebtn ? "white" : "black",
+                        }}
                       >
                         {item.name}
                       </Link>
@@ -208,6 +224,13 @@ const Header = ({ scrollLength, currHeight }) => {
                   <Link
                     href="/about"
                     className="hover:scale-[1.02] duration-300  font-poppins"
+                    onMouseEnter={() => {
+                      if (department != "about") {
+                        setActivebtn(0);
+                      } else {
+                        setActivebtn(value);
+                      }
+                    }}
                   >
                     ABOUT SKC
                   </Link>
@@ -223,12 +246,19 @@ const Header = ({ scrollLength, currHeight }) => {
                   <Link
                     href="/programs"
                     className="hover:scale-[1.02] duration-300 font-poppins"
+                    onMouseEnter={() => {
+                      if (department != "program") {
+                        setActivebtn(0);
+                      } else {
+                        setActivebtn(value);
+                      }
+                    }}
                   >
                     PROGRAMS
                   </Link>
                 </li>
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
-                  <Link href="#" className="font-poppins">
+                  <Link href="/admission" className="font-poppins">
                     ADMISSIONS
                   </Link>
                 </li>

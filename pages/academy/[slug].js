@@ -20,33 +20,41 @@ const Page = () => {
   const router = useRouter();
 
   const [datas, setDatas] = useState();
+  const [value, setValue] = useState();
 
   useEffect(() => {
     if (router.query.slug === "ias-ips") {
       setDatas(sreeKrishnaIAS_IPSAcademy);
+      setValue(0);
     }
     if (router.query.slug === "artandscience") {
       setDatas(sreeKrishnaArtsAndScience);
+      setValue(1);
     }
     if (router.query.slug === "cbseschool") {
       setDatas(sreeKrishnaInternationalCBSESchool);
+      setValue(2);
     }
     if (router.query.slug === "icseschool") {
       setDatas(sreeKrishnaInternationalICSchool);
+      setValue(3);
     }
-
+    if (router.query.slug === "armytraining") {
+      setDatas(muppadiAcademy);
+      setValue(4);
+    }
     if (router.query.slug === "civilservice") {
       setDatas(sreeKrishnaCivilServices);
+      setValue(4);
     }
     if (router.query.slug === "jee-apache") {
       setDatas(sreeKrishnaNEET_JEE_Apache);
+      setValue(5);
     }
 
-    if (router.query.slug === "armytraining") {
-      setDatas(muppadiAcademy);
-    }
     if (router.query.slug === "distanceEducation") {
       setDatas(sreeKrishnaDistanceEducation);
+      setValue(6);
     }
   }, [router.query.slug]);
 
@@ -101,9 +109,10 @@ const Page = () => {
     setScrollLength(100);
   }, []);
 
+  const dep = "about";
   return (
     <div>
-      <Header scrollLength={scrollLength} />
+      <Header scrollLength={scrollLength} value={value} department={dep} />
       {/*section*/}
       <div className="w-full min-h-[80vh] relative top-[5rem] flex items-center justify-around flex-wrap px-20">
         <div className="w-[300px] relative top-10">
@@ -226,16 +235,16 @@ const Page = () => {
         <div className="w-[80%] h-[10%] flex items-center justify-center relative top-10">
           <h1 className="text-[40px] font-Comfortaa">{datas?.section2title}</h1>
         </div>
-        <div className="w-[80%] h-[90%] flex items-center justify-around gap-5 flex-wrap">
+        <div className="w-[80%] h-[70%] flex items-center justify-around gap-5 flex-wrap">
           {data.map((item) => {
             return (
-              <div className="w-[360px] h-[80%] flex flex-col items-center justify-around gap-5">
+              <div className="w-[360px] h-[60%] flex flex-col items-center justify-center gap-10 ">
                 <Image
                   loader={() => (item.img = item.img)}
                   src={item.img}
                   width={0}
                   height={0}
-                  className="w-[90%]"
+                  className="w-[100%]"
                 />
                 <div className="w-full flex flex-col  gap-5">
                   <h1 className="text-[25px] font-Comfortaa">{item.h1}</h1>
@@ -395,3 +404,5 @@ const Page = () => {
 };
 
 export default Page;
+
+
