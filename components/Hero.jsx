@@ -9,7 +9,7 @@ import { chairmaindata } from "@/utils/data";
 import Link from "next/link"
 
 const Hero = () => {
-  let bg = "/bgmain.mp4";
+  let bg = "/bgmain1.mp4";
   const [count, setCount] = useState(0);
   const [data, setData] = useState({
     tiedUpWithVELS: {
