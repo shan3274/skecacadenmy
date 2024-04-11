@@ -1,107 +1,59 @@
-import React, { useEffect, useState, useReducer } from "react";
+import React from "react";
 import {
-  canteendata,
-  healthcaredata,
-  hosteldata,
-  librarydata,
-  sportdata,
-  transportdata,
+  affordableFees,
+  cafeteria,
+  labFacilities,
+  onlineEngineeringCounseling,
+  onlineScholarshipApplication,
+  placementSupport,
+  transportation,
 } from "@/utils/facilitiesdata";
-import {
-  MdHotel,
-  MdOutlineHealthAndSafety,
-  MdOutlineLunchDining,
-  MdOutlineSportsCricket,
-} from "react-icons/md";
-import { FaInternetExplorer } from "react-icons/fa";
-import { IoBus, IoLibraryOutline } from "react-icons/io5";
-
-const data = [
-  canteendata,
-  sportdata,
-  hosteldata,
-  transportdata,
-  librarydata,
-  healthcaredata,
-];
-
-// Reducer function to handle state updates
-const boxesReducer = (state, action) => {
-  switch (action.type) {
-    case "TOGGLE":
-      return state.map((box, index) => (index === action.index ? !box : box));
-    case "REVERT":
-      return state.map((box, index) => (index === action.index ? !box : box));
-    default:
-      return state;
-  }
-};
 
 const Section2 = () => {
-  const [boxes, setBoxs] = useState(0);
-
-  let [count, setCount] = useState(0);
-
-  useEffect(() => {
-    let i = -1;
-    setInterval(() => {
-      if (i > 7) i = -1;
-      let value = i++;
-      setCount(value);
-    }, 3000);
-  }, []);
+  const facilities = [
+    onlineEngineeringCounseling,
+    onlineScholarshipApplication,
+    transportation,
+    placementSupport,
+    affordableFees,
+    labFacilities,
+    cafeteria,
+  ];
 
   return (
-    <div className="w-full min-h-[80vh] flex flex-col items-center justify-center py-10 bg-[#ffffff]">
-      <h1 className="m-10 font-Comfortaa text-[40px]">Facilities</h1>
-      <div className="w-[90%] min-h-[75vh] flex items-center justify-center pl-10 gap-5 flex-wrap">
-        {data.map((item, key) => (
-          <div
-            key={key}
-            onMouseEnter={() => setBoxs(key)}
-            className="w-[400px] h-[350px] bg-white rounded-xl relative overflow-hidden flex items-center justify-center gap-5 flex-col drop-shadow-xl border"
-          >
-            <img
-              src={item?.bg[0]}
-              className={
-                boxes == key
-                  ? "absolute top-[0%] left-0 duration-300 aspect-[1/1]"
-                  : "absolute top-[-120%] left-0 duration-300 aspect-[1/1]"
-              }
-            />
-            <div
-              className={
-                boxes == key
-                  ? "text-[15px] font-serif absolute text-center bottom-0  w-[90%]  duration-300 bg-white/50 backdrop-blur-lg rounded-2xl p-5 mb-5 drop-shadow-xl"
-                  : "text-[15px] font-serif absolute text-center -bottom-20  w-[90%]  duration-300 bg-white/50 backdrop-blur-lg rounded-2xl p-5 mb-5 drop-shadow-xl"
-              }
-            >
-              {item.h1}
+    <div className="w-full min-h-[80vh] bg-white z-[10] gap-5 relative flex items-center justify-center flex-col my-10 mt-20">
+      <h1 className="text-[40px] font-Comfortaa">Explore Our</h1>
+      <h1 className="text-[35px] font-Comfortaa text-blue-600">Facilities</h1>
+      <p className="w-[60%] text-center text-[12px] font-poppins text-gray-500">
+        At SKC Academy, we pride ourselves on providing a comprehensive range of
+        facilities to support our students in their academic journey and
+        personal growth. Our commitment to excellence begins with offering
+        assistance for online engineering counseling and scholarship
+        applications, ensuring accessibility and opportunity for all. With
+        convenient transportation services, students can easily commute to and
+        from campus, while our dedicated placement support team helps pave the
+        way for future career success. We understand the importance of
+        affordability, which is why we offer competitive fee structures to make
+        quality education accessible to all. Our state-of-the-art laboratory
+        facilities provide hands-on learning experiences, complemented by a
+        welcoming cafeteria environment that fosters social interaction and
+        relaxation. At SKC Academy, we strive to create an inclusive and
+        supportive environment where every student can thrive academically and
+        personally.
+      </p>
+      <div className="w-[80%] flex items-center justify-center flex-wrap gap-20 m-10">
+        {facilities.map((facility, key) => {
+          return (
+            <div className="w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer">
+              <h1 className="text-[13px] w-[80%] text-center font-Comfortaa">
+                {facility?.title}
+              </h1>
+              <p className="text-center text-[10px] w-[90%] text-gray-500">
+                {facility?.paragraph1}
+              </p>
             </div>
-
-            {item.h1 == "CANTEEN" && (
-              <MdOutlineLunchDining size={100} color="#0E2647" />
-            )}
-            {item.h1 == "HEALTH CARE" && (
-              <MdOutlineHealthAndSafety size={100} color="#0E2647" />
-            )}
-            {item.h1 == "HOSTEL" && <MdHotel size={100} color="#0E2647" />}
-            {item.h1 == "INTERNET" && (
-              <FaInternetExplorer size={100} color="#0E2647" />
-            )}
-            {item.h1 == "LIBRARY" && (
-              <IoLibraryOutline size={100} color="#0E2647" />
-            )}
-            {item.h1 == "SPORTS" && (
-              <MdOutlineSportsCricket size={100} color="#0E2647" />
-            )}
-            {item.h1 == "TRANSPORT" && <IoBus size={100} color="#0E2647" />}
-            <div className="text-[15px] font-serif">{item.h1}</div>
-            <div className="w-[90%] text-[12px] line-clamp-2 text-justify">
-              {item.p1}
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
