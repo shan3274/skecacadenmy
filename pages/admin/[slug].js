@@ -1,6 +1,7 @@
 import Adminheader from "@/components/Adminheader";
 import Adminmodel from "@/components/Adminmodel";
-import { db } from "@/utils/firebase";
+import { auth, db } from "@/utils/firebase";
+import { onAuthStateChanged } from "firebase/auth";
 import { collection, getDocs } from "firebase/firestore";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -10,6 +11,13 @@ const Page = () => {
   const [data, setData] = useState();
   const [close, setClose] = useState(false);
 
+
+
+  useEffect(() => {
+    onAuthStateChanged(auth, (currenuser) => {
+      if (currenuser == null) router.push("/admin");
+    });
+  }, []);
   useEffect(() => {
     const fetchData = async () => {
       try {

@@ -11,7 +11,7 @@ const index = () => {
 
   useEffect(() => {
     onAuthStateChanged(auth, (currenuser) => {
-      if (currenuser != null) router.push("/admin/Main");
+      if (currenuser != null) router.push("/admin/contact");
     });
   }, []);
   return (
@@ -38,7 +38,7 @@ const index = () => {
           className="w-[150px] h-[40px] bg-green-500 text-white rounded-full duration-300 hover:scale-110"
           onClick={async () => {
             await signInWithEmailAndPassword(auth, email, password)
-              .then(() => router.push("/admin/Main"))
+              .then(() => router.push("/admin/contact"))
               .catch((err) => {
                 alert(err.message);
               });
