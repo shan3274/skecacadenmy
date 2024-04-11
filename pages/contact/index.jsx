@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import Layout1 from "@/components/Layout1";
+import { db } from "@/utils/firebase";
+import { addDoc, collection } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { AiOutlineSend } from "react-icons/ai";
 
@@ -32,6 +34,39 @@ const index = () => {
       h1: "SKC GROUP OF INSTITUTION",
     },
   };
+
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [reason, setReason] = useState();
+  const uploadData = async () => {
+    if (
+      name !== undefined &&
+      email !== undefined &&
+      phone !== undefined &&
+      reason !== undefined
+    ) {
+      await addDoc(collection(db, "admin/hmFVCLm25ILorXOT3Ul3/contact"), {
+        name: name,
+        email: email,
+        phone: phone,
+        reason: reason,
+      })
+        .then(() => {
+          setName();
+          setEmail();
+          setPhone();
+          setReason();
+          alert("done");
+        })
+        .catch((err) => {
+          alert(err);
+        });
+    } else {
+      alert("please please all details");
+    }
+  };
+
   return (
     <div>
       <Layout1 data={data} />
@@ -40,30 +75,35 @@ const index = () => {
           <h1 className="text-[40px] font-titlefont">Contact Us</h1>
           <input
             type="text"
-            name=""
-            id=""
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             placeholder="Name"
             className="w-[80%] h-[40px] rounded-md border pl-5 drop-shadow-md"
           />
           <input
             type="Email"
-            name=""
-            id=""
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
             className="w-[80%] h-[40px] rounded-md border pl-5 drop-shadow-md"
           />
           <input
             type="text"
-            name=""
-            id=""
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
             placeholder="Phone"
             className="w-[80%] h-[40px] rounded-md border pl-5 drop-shadow-md"
           />
           <textarea
+            value={reason}
+            onChange={(e) => setReason(e.target.value)}
             placeholder="Your Comments"
             className="w-[80%] h-[100px] rounded-md border p-5 drop-shadow-md resize-none"
           />
-          <button className=" flex w-[150px] h-[40px] bg-blue-500 text-white items-center justify-center rounded-lg duration-300 hover:scale-[1.05] gap-2">
+          <button
+            className=" flex w-[150px] h-[40px] bg-blue-500 text-white items-center justify-center rounded-lg duration-300 hover:scale-[1.05] gap-2"
+            onClick={() => uploadData()}
+          >
             Send
             <AiOutlineSend />
           </button>
