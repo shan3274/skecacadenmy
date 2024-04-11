@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   affordableFees,
   cafeteria,
@@ -44,14 +45,17 @@ const Section2 = () => {
       <div className="w-[80%] flex items-center justify-center flex-wrap gap-20 m-10">
         {facilities.map((facility, key) => {
           return (
-            <div className="w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer">
+            <Link
+              href={facility?.pathName}
+              className="w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer"
+            >
               <h1 className="text-[13px] w-[80%] text-center font-Comfortaa">
                 {facility?.title}
               </h1>
               <p className="text-center text-[10px] w-[90%] text-gray-500">
                 {facility?.paragraph1}
               </p>
-            </div>
+            </Link>
           );
         })}
       </div>
