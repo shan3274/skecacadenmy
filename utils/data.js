@@ -1,4 +1,5 @@
 export let sreeKrishnaIAS_IPSAcademy = {
+  nextPath: "/academy/artandscience",
   pathName: "/academy/ias-ips",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
@@ -58,6 +59,7 @@ export let sreeKrishnaIAS_IPSAcademy = {
     "Our consistent results speak volumes, with a high success rate and a long list of success stories. Join us on this incredible journey and unlock your potential with Sree Krishna IAS / IPS Academy.",
 };
 export let sreeKrishnaArtsAndScience = {
+  nextPath: "/academy/cbseschool",
   pathName: "/academy/artandscience",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci1.jpeg?alt=media&token=56e7e6b6-2f03-49e5-b0dd-8257f394de9d",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fartsci3.jpeg?alt=media&token=7418b653-daed-4d31-ab28-d3bd69b61ab7",
@@ -118,6 +120,7 @@ export let sreeKrishnaArtsAndScience = {
 };
 
 export let sreeKrishnaInternationalCBSESchool = {
+  nextPath: "/academy/icseschool",
   pathName: "/academy/cbseschool",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse2.jpeg?alt=media&token=60f09894-c336-4f80-8157-ebddc16fe286 ",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fcbse1.jpeg?alt=media&token=b80a8007-0996-480e-b740-b611022f8b45",
@@ -177,6 +180,7 @@ export let sreeKrishnaInternationalCBSESchool = {
     "Our alumni are leaders in their respective fields, making meaningful contributions to society and the world. Their success stories inspire current students to strive for excellence and make a difference.",
 };
 export let sreeKrishnaInternationalICSchool = {
+  nextPath: "/academy/armytraining",
   pathName: "/academy/icseschool",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficsc1.jpeg?alt=media&token=08096c41-9fcc-4d0f-87c7-24642746e17a",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ficse2.jpeg?alt=media&token=c1cf07ee-2ac7-43a3-9b2f-0a00c54e8d17",
@@ -237,6 +241,7 @@ export let sreeKrishnaInternationalICSchool = {
 };
 
 export let sreeKrishnaCivilServices = {
+  nextPath: "/academy/distanceEducation",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
   img3: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips3.jpeg?alt=media&token=2beb2d25-f04c-4739-b010-bbb561651d4b",
@@ -295,6 +300,7 @@ export let sreeKrishnaCivilServices = {
     "We leverage technology to enhance the learning experience, with smart classrooms, online resources, and digital platforms for interactive learning and collaboration.",
 };
 export let muppadiAcademy = {
+  nextPath: "/academy/jee-apache",
   pathName: "/academy/armytraining",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",
@@ -354,6 +360,7 @@ export let muppadiAcademy = {
     "From transportation to accommodation, our logistics team ensures that all logistical aspects of training are efficiently managed, allowing our recruits to focus on their training without any distractions.",
 };
 export let sreeKrishnaNEET_JEE_Apache = {
+  nextPath: "/academy/distanceEducation",
   pathName: "/academy/jee-apache",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee1.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fjee2.jpeg?alt=media&token=e75ac706-8d75-4b8f-8de1-1b7c4ba575ab",
@@ -405,6 +412,7 @@ export let sreeKrishnaNEET_JEE_Apache = {
     "Our alumni have gone on to achieve remarkable success in their respective fields, serving as inspirations for current and future students. Their journey from our academy to the pinnacle of their professions is a testament to the quality of education and training provided at SREE Krishna NEET/JEE/Apache Academy.",
 };
 export let sreeKrishnaDistanceEducation = {
+  nextPath: "/academy/ias-ips",
   name: "SREE Krishna distance education",
   img1: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips1.jpeg?alt=media&token=fbc5aada-7231-4b7e-a474-7a4b89a60308",
   img2: "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Fips2.jpeg?alt=media&token=c92ada86-3b61-4934-bce5-f6ea129a03c4",

@@ -133,12 +133,14 @@ const Page = () => {
           <p className="text-[12px] font-poppins  text-center text-gray-500">
             {datas?.paragraph1}
           </p>
-          <Link
-            href="#"
-            className="w-[200px] h-[40px] text-white bg-blue-600 flex items-center justify-center rounded-full duration-300 hover:scale-105 gap-2"
-          >
-            Next <FaArrowRight />
-          </Link>
+          {datas?.nextPath && (
+            <Link
+              href={datas?.nextPath}
+              className="w-[200px] h-[40px] text-white bg-blue-600 flex items-center justify-center rounded-full duration-300 hover:scale-105 gap-2"
+            >
+              Next <FaArrowRight />
+            </Link>
+          )}
         </div>
         <div className="w-[300px] relative bottom-10">
           <Image
