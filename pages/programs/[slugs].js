@@ -175,9 +175,6 @@ const Page = () => {
               <p className="text-[12px] font-poppins text-gray-500 w-[90%]">
                 {datas.p1}
               </p>
-              <button className="w-[150px] h-[40px] font-poppins border border-black rounded-full text-[15px]">
-                Know more
-              </button>
             </div>
             <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
               <Image
@@ -230,9 +227,6 @@ const Page = () => {
             <p className="text-[15px] font-poppins text-gray-500 w-[90%]">
               {datas.s2p1}
             </p>
-            <button className="w-[100px] h-[30px] font-poppins border border-black rounded-full text-[10px]">
-              Know more
-            </button>
           </div>
           <div className="w-[50%] h-full">
             <Image
@@ -283,21 +277,6 @@ const Page = () => {
                   alt=""
                   className="w-[60%] rounded-lg drop-shadow-xl"
                 />
-                <div className="absolute w-[200px] h-[200px] bg-gray-100 drop-shadow-xl -top-10 right-[100px] flex flex-col p-5 gap-3">
-                  <h1 className="text-[15px] font-poppins">Inside overview</h1>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="w-[600px] h-[500px] bg-[#c4ffff] flex flex-col gap-5 p-5">
@@ -335,21 +314,6 @@ const Page = () => {
                   alt=""
                   className="w-[60%] rounded-lg drop-shadow-xl"
                 />
-                <div className="absolute w-[200px] h-[200px] bg-gray-100 drop-shadow-xl -top-10 right-[100px] flex flex-col p-5 gap-3">
-                  <h1 className="text-[15px] font-poppins">Inside overview</h1>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                  <div className="w-[160px] h-[30px] flex p-2 justify-between text-[10px] bg-white">
-                    <p>Compaings</p>
-                    <p className="bg-green-200 px-2 rounded-md">1552</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
