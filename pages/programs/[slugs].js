@@ -240,7 +240,7 @@ const Page = () => {
         </div>
 
         <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col">
-          <h1 className="text-[40px] font-titlefont">Features</h1>
+          <h1 className="text-[40px] font-Comfortaa">Features</h1>
           <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
             <div className="w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
