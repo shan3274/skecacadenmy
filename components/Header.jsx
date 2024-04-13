@@ -19,8 +19,10 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 const Header = ({ scrollLength, currHeight, value = 0, department }) => {
+  const router = useRouter();
   const [search, setSearch] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -184,9 +186,33 @@ const Header = ({ scrollLength, currHeight, value = 0, department }) => {
                     }
                   ></div>
                   <div className="flex gap-5 text-white">
-                    <AiFillFacebook size={20} />
-                    <AiFillTwitterSquare size={20} />
-                    <AiFillYoutube size={20} />
+                    <AiFillFacebook
+                      onClick={() =>
+                        router.push(
+                          "https://www.facebook.com/sreekrishnacollegeofengineering1438/"
+                        )
+                      }
+                      className="cursor-pointer"
+                      size={20}
+                    />
+                    <AiFillTwitterSquare
+                      onClick={() =>
+                        router.push(
+                          "https://twitter.com/i/flow/login?redirect_after_login=%2Fskcevellore"
+                        )
+                      }
+                      className="cursor-pointer"
+                      size={20}
+                    />
+                    <AiFillYoutube
+                      onClick={() =>
+                        router.push(
+                          "https://www.youtube.com/channel/UCLa9guLE05v_w-vJ1ME7Wdw"
+                        )
+                      }
+                      className="cursor-pointer"
+                      size={20}
+                    />
                     <AiFillInstagram size={20} />
                     <FaLinkedinIn size={20} />
                   </div>

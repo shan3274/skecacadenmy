@@ -53,6 +53,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 let img =
   "https://www.sreekrishnaengcollege.com/assets/img/sree-krishna-college-of-engg-vellore-66.jpg";
@@ -80,9 +81,12 @@ const Chairman = () => {
           <p className="text-[12px] font-poppins text-gray-500 w-[90%]">
             {datas.p1}
           </p>
-          <button className="w-[150px] h-[40px] font-poppins border border-black rounded-full text-[15px]">
+          <Link
+            href="/skc"
+            className="w-[150px] h-[40px] font-poppins border border-black rounded-full text-[15px] flex items-center justify-center"
+          >
             Know more
-          </button>
+          </Link>
         </div>
         <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
           <Image
