@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
 import React, { Suspense, useEffect, useState } from "react";
 
