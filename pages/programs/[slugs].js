@@ -158,7 +158,7 @@ const Page = () => {
 
   return (
     datas !== undefined && (
-      <div className="w-full flex items-center justify-center flex-col">
+      <div className="w-full flex items-center justify-center flex-col relative">
         <Header scrollLength={scrollLength} value={value} department={dep} />
         <div className="w-full h-screen flex items-center justify-center relative ">
           <video
