@@ -24,7 +24,7 @@ const Helpmodal = ({ category, close, setClose }) => {
     address4: "address will be updated soon",
   };
   return (
-    <div className="w-full h-[50vh] fixed bottom-0 left-0 bg-white z-[9999999] rounded-t-xl drop-shadow-2xl border">
+    <div className="w-full h-[50vh] fixed bottom-0 left-0 bg-[#d0d0d0] z-[9999999] rounded-t-xl drop-shadow-2xl border">
       <div className="w-full h-full relative flex items-center flex-col gap-5 justify-center">
         <IoCloseCircleSharp
           size={20}
