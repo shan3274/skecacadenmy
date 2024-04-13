@@ -55,7 +55,7 @@ import React from "react";
 import Image from "next/image";
 
 let img =
-  "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  "https://www.sreekrishnaengcollege.com/assets/img/sree-krishna-college-of-engg-vellore-66.jpg";
 
 const Chairman = () => {
   let bgvideo = "/bgmba.mp4";
