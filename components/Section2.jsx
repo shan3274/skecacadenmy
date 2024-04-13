@@ -49,7 +49,7 @@ const Section2 = () => {
               href={facility?.pathName}
               className="w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer"
             >
-              <h1 className="text-[13px] w-[80%] text-center font-Comfortaa">
+              <h1 className="text-[13px] w-[80%] text-center font-Comfortaa text-blue-700">
                 {facility?.title}
               </h1>
               <p className="text-center text-[10px] w-[90%] text-gray-500">

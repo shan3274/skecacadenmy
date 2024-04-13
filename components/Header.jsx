@@ -209,7 +209,7 @@ const Header = ({ scrollLength, currHeight, value = 0, department }) => {
                 <li className="relative  hover:bg-white hover:text-black h-[30px] px-[1vw] flex items-center justify-center  duration-300 rounded-lg hover:scale-[1.05] z-[10]">
                   <Link
                     href="/trust"
-                    className="hover:scale-[1.02] duration-300  font-poppins"
+                    className="hover:scale-[1.02] duration-300  font-poppins text-[#ae8949]"
                   >
                     TRUST
                   </Link>
