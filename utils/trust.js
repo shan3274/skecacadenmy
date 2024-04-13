@@ -1,37 +1,19 @@
 export const trustPageData = {
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZHWWux-dnaFmeLegdeLyH87h0LNDKJZMswWJDCjPUXFfflFXuFYuMuCbqHUOaHUpWqM&usqp=CAU",
+  image:
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ftrust1.jpeg?alt=media&token=b53928a6-aaff-462f-9371-ecf9e0565f50",
   image2:
-    "https://trustcollege.edu.bd/wp-content/uploads/2015/05/logo-.jpg",
-  title: "Our Trust",
-  heading1: "Mission Statement",
-  heading2: "Our Values",
+    "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ftrsut2.jpeg?alt=media&token=49fb5f3e-4054-4ed1-97f2-b94b2c7e8fab",
+  title: "Om Sri Atchutha Kamala Educational Trust",
+
+  heading1: "THIS DEED OF TRUST",
+  smallHeading1: "made on this 9th day of April 2024 at Vellore(TRUST DEED By)",
+  heading2:
+    "Mrs.G.Kamala, W/o.M.A.Ganesan, (Aadhar No.) residing at No.1/31/A2",
+
   heading3: "Commitment to Excellence",
   paragraph1:
-    "At SKC Academy, our mission is to provide quality education that fosters intellectual, social, and personal development in students. We are committed to creating a supportive learning environment that inspires curiosity, critical thinking, and lifelong learning.",
-  paragraph2:
-    "Our values define who we are and guide our actions. We prioritize integrity, diversity, and inclusivity in everything we do. We believe in fostering a culture of respect, collaboration, and innovation, where every individual is valued and empowered to reach their full potential.",
+    "Mr.G.Saravanan, S/o.M.A.Ganesan, (Aadhar No.) residing at No.1/31/A2, Anjaneyar Koil Street, Konavattam, Vellore Taluk and District, Tamil Nadu-632013 hereinafter called the Author of the Trust which expression unless repugnant to the context or meaning thereof includes his heirs, executors, and administrators, etc.",
+
   paragraph3:
-    "We are dedicated to excellence in education and strive to uphold the highest standards of academic rigor, teaching excellence, and student support. We continuously innovate and adapt to meet the evolving needs of our students and society, preparing them for success in a rapidly changing world.",
-  paragraph4:
-    "Our commitment to transparency and accountability ensures that we operate with integrity and uphold the trust placed in us by students, parents, faculty, staff, and the community. We are committed to ethical practices, open communication, and responsible stewardship of resources.",
-  paragraph5:
-    "We believe in the transformative power of education to create positive change in individuals and communities. Through our programs and initiatives, we aim to make a meaningful impact on society and contribute to a more just, equitable, and sustainable world.",
-  paragraph6:
-    "At SKC Academy, trust is the foundation of everything we do. We are committed to building and maintaining trust-based relationships with all stakeholders, grounded in honesty, transparency, and mutual respect.",
-  paragraph7:
-    "We invite you to learn more about our trust, values, and commitment to excellence. Together, we can inspire, empower, and transform lives through education.",
-  paragraph8:
-    "Our trust is built on a legacy of academic excellence and integrity spanning decades. Since our inception, we have remained steadfast in our commitment to providing an exceptional educational experience for students from diverse backgrounds and communities.",
-  paragraph9:
-    "We are proud of our alumni who have gone on to make significant contributions in various fields and sectors, embodying our values and principles in their professional and personal lives. Their achievements are a testament to the transformative power of education and the enduring impact of our institution.",
-  paragraph10:
-    "We believe in fostering a culture of continuous improvement and innovation, embracing change as an opportunity for growth and advancement. Our faculty, staff, and administration are dedicated to staying abreast of emerging trends and best practices in education, ensuring that our programs and curriculum remain relevant and responsive to the needs of students and society.",
-  paragraph11:
-    "As a trusted educational institution, we are committed to upholding the highest standards of academic integrity and intellectual honesty. We promote a culture of academic excellence and ethical conduct, where honesty, integrity, and respect for intellectual property are paramount.",
-  paragraph12:
-    "We recognize the importance of diversity, equity, and inclusion in education and strive to create an inclusive and welcoming environment where all individuals feel valued, respected, and empowered to succeed. We are committed to promoting diversity in all its forms and fostering a culture of belonging and acceptance.",
-  paragraph13:
-    "Our commitment to excellence extends beyond academics to encompass holistic development and well-being. We provide comprehensive support services, including counseling, career guidance, and extracurricular activities, to nurture the physical, emotional, and social growth of our students.",
-  paragraph14:
-    "We are deeply invested in the success and well-being of our students and are dedicated to providing a nurturing and supportive learning environment where they can thrive academically, personally, and professionally. Our student-centered approach puts the needs and aspirations of our students at the forefront of everything we do.",
+    "Anjaneyar Koil Street, Konavattam, Vellore Taluk and District, Tamil Nadu- 632013 hereinafter called the Co-Author of the Trust. WHEREAS Authors are seized, possessed and absolutely entitled to a sum of Rs. 1,001.00 (Rupees one thousand one only). WHEREAS the Authors are desirous of setting the said sum of Rs.1,001/- (rupees one thousand one only) in trust for education health and charitable purposes, objects ends hereinafter set forth. WHEREAS in order to effectuate the said desirous, the Authors has transferred irrevocably and delivered unto the trustees the said sum of Rs. 1,001/- (rupees one thousand one only) with the intent that the said sum shall be held by the said trustees on trust and subject to the powers, directions, discretions and provisions hereinafter declared, contained and thousand one only)) the trustees are hereby acknowledge and affirm. concerning the same, the receipt of which sum of Rs. 1,001/- (Rupees One",
 };
