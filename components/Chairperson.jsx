@@ -74,7 +74,7 @@ const Chairperson = () => {
             </div>
             <div className="w-[70%] h-[70%] flex flex-col  pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
               <h1 className="text-[40px] font-Comfortaa">
-                Dr.G.SARAVANAN, <span className="text-[20px]">MBA.PhD</span>
+                Dr.G.SARAVANAN, <span className="text-[20px]">MBA,.PhD</span>
               </h1>
               <h2 className="text-[17px] font-poppins text-blue-500">
                 CHAIRMAN/MANAGING TRUSTEE
