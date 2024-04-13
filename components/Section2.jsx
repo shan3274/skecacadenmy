@@ -22,7 +22,7 @@ const Section2 = () => {
   ];
 
   return (
-    <div className="w-full min-h-[80vh] bg-white z-[10] gap-5 relative flex items-center justify-center flex-col my-10 mt-20">
+    <div className="w-full min-h-[80vh] bg-white z-[1000] gap-5 relative flex items-center justify-center flex-col my-10 mt-20">
       <h1 className="text-[40px] font-Comfortaa">Explore Our</h1>
       <h1 className="text-[35px] font-Comfortaa text-blue-600">Facilities</h1>
       <p className="w-[60%] text-center text-[12px] font-poppins text-gray-500">

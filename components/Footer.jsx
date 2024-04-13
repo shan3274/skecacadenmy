@@ -191,7 +191,7 @@ const Footer = () => {
               © Copyright 2024, All Rights Reserved
             </p>
             <p className="text-[12px] font-poppins text-gray-500">
-              SKCE GROUP OF INSTITUTION
+              SKC GROUP OF INSTITUTION
             </p>
           </div>
         </div>

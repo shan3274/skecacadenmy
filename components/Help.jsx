@@ -47,7 +47,7 @@ const Help = ({ scrollLength, currHeight }) => {
               transition={{ duration: 1 }}
               className="border bg-white border-black rounded-full flex items-center justify-center gap-5 font-[100] duration-500 hover:scale-[1.05] hover:bg-yellow-500 hover:text-white relative  top-[50px] cursor-pointer"
             >
-              <CiChat1 size={20} /> <p>Chat with us</p>
+              <CiChat1 size={20} /> <p>Contact us</p>
             </motion.div>
             <motion.div
               onClick={() => {
