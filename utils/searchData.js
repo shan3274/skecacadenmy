@@ -69,4 +69,17 @@ export const searchData = [
   { name: "ADMISSIONS", pathName: "/admission" },
   { name: "GALLERY", pathName: "/gallery" },
   { name: "CONTACT US", pathName: "/contact" },
+  {
+    name: "Assist for online engineering counselling application",
+    pathName: "/facilities/counseling",
+  },
+  {
+    name: "Assistance for online application for scholarship",
+    pathName: "/facilities/scholarships",
+  },
+  { name: "Transport", pathName: "/facilities/transportation" },
+  { name: "Placement", pathName: "/facilities/placement" },
+  { name: "Affordable fees", pathName: "/facilities/fees" },
+  { name: "Lab facilities", pathName: "/facilities/labs" },
+  { name: "Cafeteria", pathName: "/facilities/cafeteria" },
 ];
