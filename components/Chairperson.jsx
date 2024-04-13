@@ -57,24 +57,24 @@ const Chairperson = () => {
   const [datas, seyDatas] = useState(mba);
   return (
     <div>
-      <div className="w-full h-screen flex items-center justify-center mt-10">
-        <div className="w-[80%] h-screen flex flex-col items-center justify-center gap-0 relative">
+      <div className="w-full h-[70vh] flex items-center justify-center mt-20">
+        <div className="w-[80%] h-[70vh] flex flex-col items-center justify-center gap-0 relative">
           <div className="w-full h-[10%] flex items-center justify-center">
-            <h1 className="text-[40px] font-Comfortaa mb-10">CHAIRMAN</h1>
+            <h1 className="text-[40px] font-Comfortaa ">CHAIRMAN</h1>
           </div>
-          <div className="w-full h-[70%] flex items-center justify-center">
-            <div className="w-[50%] h-full relative flex items-center justify-center">
+          <div className="w-full h-[90%] flex items-center justify-center drop-shadow-xl">
+            <div className="w-[50%] rounded-l-xl h-[70%] overflow-hidden relative flex items-center justify-center">
               <Image
                 loader={() => (image = image)}
                 src={image}
                 width={0}
                 height={0}
-                className="w-[100%] absolute -right-10 top-20 rounded-lg"
+                className="w-[100%]   rounded-lg"
               />
             </div>
-            <div className="w-[70%] h-full flex flex-col p-10 pl-20 justify-center gap-5 bg-gray-100">
+            <div className="w-[70%] h-[70%] flex flex-col  pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
               <h1 className="text-[40px] font-Comfortaa">
-                Dr.G.SARAVANAN <span className="text-[20px]">(M.B.A,Ph.D)</span>
+                Dr.G.SARAVANAN <span className="text-[20px]">M.B.A,Ph.D</span>
               </h1>
               <h2 className="text-[17px] font-poppins text-blue-500">
                 CHAIRMAN/MANAGING TRUSTEE
