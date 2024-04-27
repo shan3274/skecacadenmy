@@ -188,11 +188,11 @@ const Footer = () => {
       </div>
       <div className="w-full h-[30vh] absolute bottom-0 ">
         <div className="relative w-full h-full bg-[#18181B] flex items-center justify-around">
-          <div className="w-[80%] h-[15vh] absolute bottom-0 flex items-center justify-between">
-            <p className="text-[12px] font-poppins text-gray-500">
+          <div className="lg:w-[80%] w-full h-[15vh] absolute bottom-0 flex items-center justify-around lg:justify-between">
+            <p className="text-[10px] lg:text-[12px] font-poppins text-gray-500">
               © Copyright 2024, All Rights Reserved
             </p>
-            <p className="text-[12px] font-poppins text-gray-500">
+            <p className="text-[10px] lg:text-[12px] font-poppins text-gray-500">
               SKC GROUP OF INSTITUTION
             </p>
           </div>
