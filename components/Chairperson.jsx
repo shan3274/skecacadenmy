@@ -86,7 +86,7 @@ const Chairperson = () => {
                 OF 2010 AND OFFERS 5 DISCIPLINES OF EDUCATION. WE HAVE 616
                 STUDENTS PRESENTLY STUDYING.
               </p>
-              <button className="w-[150px] h-[40px] flex items-center justify-center gap-2 text-[13px] font-poppins bg-blue-500 text-white rounded-full duration-300 hover:scale-105">
+              <button className="w-[150px] h-[40px] relative flex items-center justify-center gap-2 text-[13px] font-poppins bg-blue-500 text-white rounded-full duration-300 hover:scale-105">
                 Know more <FaArrowRight size={12} />{" "}
               </button>
             </div>
