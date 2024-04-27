@@ -167,11 +167,11 @@ const Programs = () => {
   console.log(data);
   return (
     data !== undefined && (
-      <div className="w-full min-h-[80vh] flex items-center justify-center flex-col relative">
-        <h1 className="relative top-20 font-Comfortaa text-[40px] after:absolute after:w-[50%] after:left-[25%] after:h-[1px] after:bg-blue-500 after:top-[120%]">
+      <div className="w-full lg:min-h-[80vh]  flex items-center justify-center flex-col relative">
+        <h1 className="relative top-20 font-Comfortaa text-[30px] lg:text-[40px] after:absolute after:w-[50%] after:left-[25%] after:h-[1px] after:bg-blue-500 after:top-[120%]">
           Programs
         </h1>
-        <div className="w-[90%] min-h-[90vh] flex items-center justify-center flex-wrap gap-2">
+        <div className="w-[90%] min-h-[90vh] relative lg:top-0 top-[10rem] flex items-center justify-center flex-wrap gap-y-10 gap-2">
           <Image
             loader={() => (img = img)}
             src={img}
@@ -182,15 +182,15 @@ const Programs = () => {
           <div className="w-[600px] h-[60vh] flex flex-col p-10 justify-center gap-5 relative">
             <h1 className="text-[25px] font-Comfortaa">{data.h1}</h1>
 
-            <p className="text-[13px] font-poppins text-gray-500">{data.p1}</p>
-            <p className="text-[13px] font-poppins text-gray-500">{data.p2}</p>
+            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">{data.p1}</p>
+            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">{data.p2}</p>
             <svg
               width="178"
               height="56"
               viewBox="0 0 178 56"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="cursor-pointer"
+              className="cursor-pointer lg:static absolute -bottom-[0rem]"
               onClick={() => router.push(data.pathName)}
             >
               <rect
@@ -226,7 +226,7 @@ const Programs = () => {
             </svg>
           </div>
         </div>
-        <div className="w-[80%] relative bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
+        <div className="w-[80%] relative bottom-20 min-h-[100%] lg:mt-0 mt-[18rem] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
           {program.map((item, key) => {
             return (
               <button
