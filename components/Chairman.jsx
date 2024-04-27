@@ -66,7 +66,7 @@ const Chairman = () => {
     p1: "We mould our students technologically Superior, ethically strong and want them to be recognized as an international leader in academic education, cutting-edge research, and the application of knowledge to benefit society locally and globally. The college aims prepares students for employment and assists them in pursuing their educational, carrier and personal goals through a variety of learning opportunities. We always committed to achieve student- centered learning, academic excellence, innovations, integrity and effective communication among students.",
   };
   return (
-    <div className="w-full min-h-[80vh] relative flex items-center justify-center">
+    <div className="w-full lg:min-h-[80vh] relative flex items-center justify-center">
       <video
         src={bgvideo}
         autoPlay
@@ -75,10 +75,12 @@ const Chairman = () => {
         className="h-[80vh] w-[100vw] top-0 object-cover absolute"
       ></video>
 
-      <div className="w-[80%]  h-[60vh]  z-[10] relative  bg-white/70 backdrop-blur-lg flex items-center justify-around rounded-lg">
-        <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
-          <h1 className="w-[90%] font-Comfortaa text-[25px]">{datas.h1}</h1>
-          <p className="text-[12px] font-poppins text-gray-500 w-[90%]">
+      <div className="w-[80%]  lg:h-[60vh]  z-[10] relative  bg-white/70 backdrop-blur-lg my-10 lg:mb-0 lg:my-0 flex lg:flex-row flex-col-reverse items-center justify-around rounded-lg">
+        <div className="lg:w-[50%] h-full flex flex-col p-10 justify-center gap-5">
+          <h1 className="w-[90%] font-Comfortaa text-[20px] lg:text-[25px] ">
+            {datas.h1}
+          </h1>
+          <p className="text-[12px] font-poppins text-gray-500 w-[90%] line-clamp-6">
             {datas.p1}
           </p>
           <Link
@@ -88,7 +90,7 @@ const Chairman = () => {
             Know more
           </Link>
         </div>
-        <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
+        <div className="lg:w-[50%] h-full flex flex-col p-10 justify-center gap-5">
           <Image
             loader={() => (img = img)}
             src={img}
