@@ -139,7 +139,7 @@ const facilities = [
 const Footer = () => {
   return (
     <div className="w-full min-h-[80vh] relative flex items-center justify-center mt-10">
-      <div className="w-[80%] h-[50vh] bg-gray-100 border relative z-10 rounded-lg drop-shadow-2xl bottom-0 flex items-center justify-around">
+      <div className="lg:w-[80%] lg:h-[50vh] bg-gray-100 border relative z-10 rounded-lg drop-shadow-2xl bottom-0 flex lg:items-center pb-4 justify-around">
         <div className="w-[30%] h-[80%] flex flex-col items-center pt-5 gap-5 text-blue-600">
           <h1 className="font-Comfortaa text-[15px]">OUR CAMPUS</h1>
           {trustAndNavigationLinks.map((item) => {
