@@ -139,13 +139,15 @@ const facilities = [
 const Footer = () => {
   return (
     <div className="w-full min-h-[80vh] relative flex items-center justify-center mt-10">
-      <div className="lg:w-[80%] lg:h-[50vh] bg-gray-100 border relative z-10 rounded-lg drop-shadow-2xl bottom-0 flex lg:items-center pb-4 justify-around">
-        <div className="w-[30%] h-[80%] flex flex-col items-center pt-5 gap-5 text-blue-600">
-          <h1 className="font-Comfortaa text-[15px]">OUR CAMPUS</h1>
+      <div className="lg:w-[80%] lg:h-[50vh] bg-gray-100 border relative z-10 rounded-lg drop-shadow-2xl bottom-10 lg:bottom-0 flex lg:items-center pb-4 justify-around">
+        <div className="w-[30%] h-[80%] flex flex-col lg:items-center items-start pl-2 pt-5 gap-5 text-blue-600">
+          <h1 className="font-Comfortaa text-[12px] lg:text-[15px]">
+            OUR CAMPUS
+          </h1>
           {trustAndNavigationLinks.map((item) => {
             return (
               <Link
-                className="text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
+                className="text-[10px] lg:text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
                 href={item.pathName}
               >
                 {item.name}
@@ -154,13 +156,13 @@ const Footer = () => {
           })}
         </div>
         <div className="w-[30%] h-[80%] flex flex-col items-center pt-5 gap-5">
-          <h1 className="font-Comfortaa text-[15px] text-blue-600">
+          <h1 className="font-Comfortaa text-[12px] lg:text-[15px] text-blue-600">
             INSTITUTIONS
           </h1>
           {institutions.map((item) => {
             return (
               <Link
-                className="text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
+                className="text-[10px] lg:text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
                 href={item.pathName}
               >
                 {item.name}
@@ -168,14 +170,14 @@ const Footer = () => {
             );
           })}
         </div>
-        <div className="w-[30%] h-[80%] flex flex-col items-center pt-5 gap-5">
-          <h1 className="font-Comfortaa text-[15px] text-blue-600">
+        <div className="w-[30%] h-[80%] flex flex-col  lg:items-center items-start pt-5 gap-5">
+          <h1 className="font-Comfortaa text-[12px] lg:text-[15px] text-blue-600">
             FACILITIES
           </h1>
           {facilities.map((item) => {
             return (
               <Link
-                className="text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
+                className="text-[10px] lg:text-[12px] font-poppins text-gray-500 duration-300 hover:text-black"
                 href={item.pathName}
               >
                 {item.name}
