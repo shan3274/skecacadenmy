@@ -180,10 +180,16 @@ const Programs = () => {
             className="w-[600px] aspect-[4/3] rounded-lg"
           />
           <div className="w-[600px] h-[60vh] flex flex-col p-10 justify-center gap-5 relative">
-            <h1 className="text-[25px] font-Comfortaa">{data.h1}</h1>
+            <h1 className="lg:text-[25px] text-[17px] font-Comfortaa">
+              {data.h1}
+            </h1>
 
-            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">{data.p1}</p>
-            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">{data.p2}</p>
+            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">
+              {data.p1}
+            </p>
+            <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">
+              {data.p2}
+            </p>
             <svg
               width="178"
               height="56"
