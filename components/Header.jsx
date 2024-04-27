@@ -133,29 +133,16 @@ const Header = ({ scrollLength, currHeight, value = 0, department }) => {
           )}
         </div>
         {mobileMenu && (
-          <div className="duration-300 w-full h-[50vh] flex flex-col text-[20px]  font-poppins text-white items-center  justify-around gap-3  bg-[#392346] fixed left-0 top-[6rem] z-[99999] ">
-            <Link href="/trust" className=" text-[#ae8949] text-[25px]">
+          <div className="duration-300 w-full h-[50vh] flex flex-col text-[17px] p-10  font-poppins text-white   justify-around gap-3  bg-[#392346] fixed left-0 top-[6rem] z-[99999] ">
+            <Link href="/trust" className=" text-[#ae8949]">
               TRUST
             </Link>
             <Link href="/about">ABOUT SKC</Link>
-            <Link href="/" className="font-poppins">
-              HOME
-            </Link>
-            <Link
-              href="/programs"
-              className="hover:scale-[1.02] duration-300 font-poppins"
-            >
-              PROGRAMS
-            </Link>
-            <Link href="/admission" className="font-poppins">
-              ADMISSIONS
-            </Link>
-            <Link href="/contact" className="font-poppins">
-              CONTACT US
-            </Link>
-            <Link href="/gallery" className="font-poppins">
-              GALLERY
-            </Link>
+            <Link href="/">HOME</Link>
+            <Link href="/programs">PROGRAMS</Link>
+            <Link href="/admission">ADMISSIONS</Link>
+            <Link href="/contact">CONTACT US</Link>
+            <Link href="/gallery">GALLERY</Link>
           </div>
         )}
       </div>
