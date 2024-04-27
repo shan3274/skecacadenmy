@@ -17,9 +17,11 @@ import {
   AiFillPhone,
   AiFillTwitterSquare,
   AiFillYoutube,
+  AiOutlineClose,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { useRouter } from "next/router";
+import { IoClose } from "react-icons/io5";
 
 const Header = ({ scrollLength, currHeight, value = 0, department }) => {
   const router = useRouter();
@@ -28,6 +30,7 @@ const Header = ({ scrollLength, currHeight, value = 0, department }) => {
 
   const [subMenu, setSubMenu] = useState(false);
 
+  const [mobileMenu, setMobileMenu] = useState(false);
   const [about, setAbout] = useState([
     { name: "Sree Krishna IAS / IPS academy", pathName: "/academy/ias-ips" },
     { name: "SREE Krishna arts & science", pathName: "/academy/artandscience" },
@@ -107,7 +110,31 @@ const Header = ({ scrollLength, currHeight, value = 0, department }) => {
   return (
     <>
       <div className="lg:hidden">
-        <Phoneheader currHeight={currHeight} scrollLength={scrollLength} />
+        <div className="w-full h-[5rem] bg-[#392346] fixed left-0 top-0 z-[99999] flex  items-center justify-around">
+          <Link href="/">
+            <Image
+              src={logo}
+              width={200}
+              className="cursor-pointer relative z-[9999] w-[200px]"
+            />
+          </Link>
+          {mobileMenu ? (
+            <IoClose
+              size={25}
+              color="white"
+              onClick={() => setMobileMenu(false)}
+            />
+          ) : (
+            <CiMenuBurger
+              size={25}
+              color="white"
+              onClick={() => setMobileMenu(true)}
+            />
+          )}
+        </div>
+        {mobileMenu && (
+          <div className="duration-300 w-full h-screen  bg-[#392346] fixed left-0 top-[6rem] z-[99999]"></div>
+        )}
       </div>
 
       <div className="hidden lg:block relative">
