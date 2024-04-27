@@ -72,7 +72,7 @@ const Chairperson = () => {
                 className="w-[90%]"
               />
             </div>
-            <div className="lg:w-[70%] w-full h-[70%] flex flex-col p-5 lg:pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
+            <div className="lg:w-[70%] w-full lg:h-[70%] flex flex-col p-5 lg:pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
               <h1 className=" lg:text-[40px] text-[20px] font-Comfortaa">
                 Dr.G.SARAVANAN,{" "}
                 <span className="lg:text-[20px] text-[10px]">MBA,.PhD</span>
