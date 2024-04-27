@@ -62,14 +62,14 @@ const Chairperson = () => {
           <div className="w-full h-[10%] flex items-center justify-center">
             <h1 className="text-[40px] font-Comfortaa ">CHAIRMAN</h1>
           </div>
-          <div className="w-full h-[90%] flex lg:flex-row flex-col gap-2 items-center justify-center drop-shadow-xl">
+          <div className="w-full h-[90%] flex lg:flex-row flex-col gap-5 items-center justify-center drop-shadow-xl">
             <div className="lg:w-[50%] w-full rounded-l-xl h-[70%] overflow-hidden relative flex items-center justify-center">
               <Image
                 loader={() => (image = image)}
                 src={image}
                 width={0}
                 height={0}
-                className="w-[100%]   rounded-lg"
+                className="w-[90%]"
               />
             </div>
             <div className="lg:w-[70%] w-full h-[70%] flex flex-col p-5 lg:pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
