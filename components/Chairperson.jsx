@@ -69,7 +69,7 @@ const Chairperson = () => {
                 src={image}
                 width={0}
                 height={0}
-                className="w-[300px]"
+                className="w-[90%] h-auto"
               />
             </div>
             <div className="lg:w-[70%] w-full lg:h-[70%] flex flex-col p-5 lg:pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
