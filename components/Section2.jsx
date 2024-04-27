@@ -23,9 +23,11 @@ const Section2 = () => {
 
   return (
     <div className="w-full min-h-[80vh] bg-white z-[1000] gap-5 relative flex items-center justify-center flex-col my-10 mt-20">
-      <h1 className="text-[40px] font-Comfortaa">Explore Our</h1>
-      <h1 className="text-[35px] font-Comfortaa text-blue-600">Facilities</h1>
-      <p className="w-[60%] text-center text-[12px] font-poppins text-gray-500">
+      <h1 className="lg:text-[40px] text-[30px] font-Comfortaa">Explore Our</h1>
+      <h1 className="lg:text-[35px] text-[25px] font-Comfortaa text-blue-600">
+        Facilities
+      </h1>
+      <p className="lg:w-[60%] w-[90%] text-center text-[12px] font-poppins text-gray-500">
         At SKC Academy, we pride ourselves on providing a comprehensive range of
         facilities to support our students in their academic journey and
         personal growth. Our commitment to excellence begins with offering
@@ -47,7 +49,7 @@ const Section2 = () => {
           return (
             <Link
               href={facility?.pathName}
-              className="w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer"
+              className="lg:w-[250px] h-[200px] bg-[#efeeee] border drop-shadow-xl rounded-lg flex flex-col gap-5 items-center justify-center duration-300 hover:scale-110 cursor-pointer"
             >
               <h1 className="text-[13px] w-[80%] text-center font-Comfortaa text-blue-700">
                 {facility?.title}
