@@ -62,8 +62,8 @@ const Chairperson = () => {
           <div className="w-full h-[10%] flex items-center justify-center">
             <h1 className="text-[40px] font-Comfortaa ">CHAIRMAN</h1>
           </div>
-          <div className="w-full h-[90%] flex items-center justify-center drop-shadow-xl">
-            <div className="w-[50%] rounded-l-xl h-[70%] overflow-hidden relative flex items-center justify-center">
+          <div className="w-full h-[90%] flex lg:flex-row flex-col gap-2 items-center justify-center drop-shadow-xl">
+            <div className="lg:w-[50%] w-full rounded-l-xl h-[70%] overflow-hidden relative flex items-center justify-center">
               <Image
                 loader={() => (image = image)}
                 src={image}
@@ -72,11 +72,12 @@ const Chairperson = () => {
                 className="w-[100%]   rounded-lg"
               />
             </div>
-            <div className="w-[70%] h-[70%] flex flex-col  pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
-              <h1 className="text-[40px] font-Comfortaa">
-                Dr.G.SARAVANAN, <span className="text-[20px]">MBA,.PhD</span>
+            <div className="lg:w-[70%] w-full h-[70%] flex flex-col p-5 lg:pl-20 justify-center rounded-r-xl gap-5 bg-gray-100">
+              <h1 className=" lg:text-[40px] text-[20px] font-Comfortaa">
+                Dr.G.SARAVANAN,{" "}
+                <span className="lg:text-[20px] text-[10px]">MBA,.PhD</span>
               </h1>
-              <h2 className="text-[17px] font-poppins text-blue-500">
+              <h2 className="lg:text-[17px] font-poppins text-blue-500">
                 CHAIRMAN/MANAGING TRUSTEE
               </h2>
               <p className="text-[15px] text-gray-500 font-poppins">
