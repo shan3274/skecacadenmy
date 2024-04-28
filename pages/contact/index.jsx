@@ -168,7 +168,7 @@ const index = () => {
   return (
     <div>
       <Header scrollLength={scrollLength} />
-      <div className="w-full min-h-[80vh] flex items-center justify-center lg:flex-row flex-col relative top-[10rem]  mb-[60vh]">
+      <div className="w-full min-h-[80vh] flex items-center justify-center lg:flex-row flex-col relative top-[10rem]  mb-[80vh]">
         <div className="lg:w-[80%] h-[60vh] flex items-center justify-around lg:flex-row flex-col gap-10">
           <div className="lg:w-[50%] flex flex-col gap-5">
             <h1 className="text-[40px] font-Comfortaa">Find us</h1>
