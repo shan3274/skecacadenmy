@@ -127,7 +127,7 @@ const Page = () => {
           <div className="absolute w-[90%] aspect-[4/6] z-[-1] border rounded-[100px] top-5 border-yellow-500"></div>
         </div>
         <div className="w-[400px] flex flex-col items-center justify-center h-[80vh] gap-5">
-          <h1 className="text-[35px] font-Comfortaa text-center">
+          <h1 className="lg:text-[35px] text-[20px] font-Comfortaa text-center">
             {datas?.title}
           </h1>
           <p className="text-[12px] font-poppins  text-center text-gray-500">
