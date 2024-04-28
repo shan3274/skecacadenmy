@@ -304,7 +304,7 @@ const Page = () => {
         </div>
       </div>
       {/*section4*/}
-      <div className="w-full min-h-[50vh] flex flex-col items-center justify-center gap-5 relative top-[60vh] lg:static lg:mb-0 mb-[50vh]">
+      <div className="w-full min-h-[50vh] flex flex-col items-center justify-center gap-5 relative top-[60vh] lg:static lg:mb-0 mb-[60vh]">
         <div className="lg:w-[70%] min-h-[10vh] flex items-center justify-between">
           <h1 className="text-[35px] w-full text-center font-poppins">
             Facilities
