@@ -239,14 +239,14 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col">
+        <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col relative lg:static lg:top-0 top-[70vh] lg:mb-0 mb-[70vh]">
           <h1 className="text-[40px] font-Comfortaa">Features</h1>
           <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
-            <div className="w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
+            <div className="lg:w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
                 {datas.s3lh1}
               </h1>
-              <p className="text-[12px] w-[80%] text-gray-500">{datas.s3lp1}</p>
+              <p className="text-[12px] lg:w-[80%] text-gray-500">{datas.s3lp1}</p>
 
               <div className=" relative">
                 <Image
@@ -255,15 +255,15 @@ const Page = () => {
                   width={0}
                   height={0}
                   alt=""
-                  className="w-[60%] rounded-lg drop-shadow-xl"
+                  className="lg:w-[60%] w-[90%] rounded-lg drop-shadow-xl"
                 />
               </div>
             </div>
-            <div className="w-[600px] h-[500px] bg-[#c4ffff] flex flex-col gap-5 p-5">
+            <div className="lg:w-[600px] lg:h-[500px] bg-[#c4ffff] flex flex-col gap-5 p-5">
               <h1 className="text-[20px] font-poppins font-[500] pt-10">
                 {datas.s3rh1}
               </h1>
-              <p className="text-[12px] w-[80%] text-gray-500">{datas.s3rp1}</p>
+              <p className="text-[12px] lg:w-[80%] text-gray-500">{datas.s3rp1}</p>
 
               <div className=" relative">
                 <Image
@@ -272,7 +272,7 @@ const Page = () => {
                   width={0}
                   height={0}
                   alt=""
-                  className="w-[60%] rounded-lg drop-shadow-xl"
+                  className="lg:w-[60%] w-[90%] rounded-lg drop-shadow-xl"
                 />
               </div>
             </div>
