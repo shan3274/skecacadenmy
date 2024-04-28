@@ -219,7 +219,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative top-[50vh] lg:-top-20 rounded-lg flex items-center justify-around lg:flex-row flex-col-reverse">
+        <div className="lg:w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative top-[50vh] lg:-top-20 rounded-lg flex items-center justify-around lg:flex-row flex-col-reverse">
           <div className="lg:w-[50%] h-full flex flex-col justify-center gap-5 p-10">
             <h1 className="w-[90%] font-Comfortaa lg:text-[35px] text-[17px]">
               {datas.s2title}
