@@ -260,7 +260,7 @@ const Page = () => {
         </div>
       </div>
       {/*section3*/}
-      <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col lg:static relative top-[60vh]">
+      <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col lg:static relative top-[70vh]">
         <h1 className="text-[40px] font-Comfortaa">Features</h1>
         <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
           <div className="lg:w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
