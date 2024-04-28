@@ -205,15 +205,15 @@ const Page = () => {
             </div>
             <div className="lg:w-[50%] w-[90%] text-center lg:text-start h-full flex flex-col lg:p-10 lg:pl-20 justify-center gap-5 lg:bg-gray-100 relative lg:top-0 top-[20vh] ">
               <h1 className="text-[25px] font-Comfortaa">{datas.s1h1}</h1>
-              <p className="text-[15px] text-gray-500 font-poppins">
+              <p className="text-[15px] text-gray-500 font-poppins lg:line-clamp-none line-clamp-5">
                 {datas.s1p1}
               </p>
               <h1 className="text-[25px] font-Comfortaa">{datas.s1h2}</h1>
-              <p className="text-[15px] text-gray-500 font-poppins">
+              <p className="text-[15px] text-gray-500 font-poppins lg:line-clamp-none line-clamp-5">
                 {datas.s1p2}
               </p>
               <h1 className="text-[25px] font-Comfortaa">{datas.s1h3}</h1>
-              <p className="text-[15px] text-gray-500 font-poppins">
+              <p className="text-[15px] text-gray-500 font-poppins lg:line-clamp-none line-clamp-5">
                 {datas.s1p3}
               </p>
             </div>
