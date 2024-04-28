@@ -171,7 +171,7 @@ const index = () => {
               </svg>
             </div>
           </div>
-          <div className="w-[80%] relative lg:top-0 top-10 lg:bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
+          <div className="w-[80%] relative lg:top-0 top-16 lg:bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
             {program.map((item, key) => {
               return (
                 <button
