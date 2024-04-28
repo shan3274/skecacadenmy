@@ -12,7 +12,7 @@ const Help = ({ scrollLength, currHeight }) => {
 
   return (
     <>
-      <div className="w-full h-screen lg:h-[60vh] flex items-center justify-center  z-[1] relative">
+      <div className="w-full h-[70vh] lg:h-[60vh] flex items-center justify-center  z-[1] relative lg:-mt-0 -mt-20 lg:-mb-0 -mb-20">
         <div className="lg:w-[80%] w-[90%] h-[60%] border bg-[#392346] flex flex-col items-center justify-evenly rounded-[30px] drop-shadow-xl   duration-300 hover:scale-[1.05]">
           <motion.h1
             initial={{ opacity: 0 }}

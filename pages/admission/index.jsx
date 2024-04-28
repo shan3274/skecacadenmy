@@ -73,8 +73,8 @@ const Index = () => {
     <div>
       <Header scrollLength={scrollLength} />
       <div className="w-full min-h-screen flex items-center justify-center relative top-[10rem] mb-[10rem]">
-        <div className="w-[60%] min-h-screen flex flex-col gap-10 p-10">
-          <h1 className="text-[40px] font-Comfortaa">
+        <div className="lg:w-[60%] min-h-screen flex flex-col gap-10 p-10">
+          <h1 className="lg:text-[40px] text-[25px] font-Comfortaa text-center lg:text-start">
             College Registration From
           </h1>
           <div className="w-full flex flex-col gap-5">

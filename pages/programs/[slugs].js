@@ -169,14 +169,14 @@ const Page = () => {
             className="h-[80vh] w-[100vw] top-0 object-cover absolute"
           ></video>
 
-          <div className="w-[80%]  h-[60vh]  z-[10] relative bottom-10 bg-[#fbe8e8] flex items-center justify-around rounded-lg">
-            <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
-              <h1 className="w-[90%] font-Comfortaa text-[25px]">{datas.h1}</h1>
-              <p className="text-[12px] font-poppins text-gray-500 w-[90%]">
+          <div className="w-[80%]  h-[60vh]  z-[10] relative bottom-10 bg-[#fbe8e8] flex items-center justify-around rounded-lg lg:flex-row flex-col-reverse">
+            <div className="lg:w-[50%] h-full flex flex-col p-10 justify-center gap-5">
+              <h1 className="w-[90%] font-Comfortaa text-[18px] lg:text-[25px]  text-center lg:text-start">{datas.h1}</h1>
+              <p className="text-[12px] font-poppins text-gray-500 w-[90%] lg:line-clamp-none line-clamp-6">
                 {datas.p1}
               </p>
             </div>
-            <div className="w-[50%] h-full flex flex-col p-10 justify-center gap-5">
+            <div className="lg:w-[50%] w-[80%] h-full flex flex-col lg:p-10 justify-center gap-5">
               <Image
                 loader={() => (img = img)}
                 src={img}
@@ -189,21 +189,21 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] h-screen flex flex-col items-center justify-center gap-0 relative bottom-[20vh]">
+        <div className="lg:w-[80%] h-screen flex flex-col items-center justify-center gap-0 relative bottom-[20vh] ">
           <div className="w-full h-[10%] flex items-center justify-center">
-            <h1 className="text-[40px] font-Comfortaa">{datas.s1title}</h1>
+            <h1 className="lg:text-[40px] text-center lg:text-start text-[25px] font-Comfortaa">{datas.s1title}</h1>
           </div>
-          <div className="w-full h-[70%] flex items-center justify-center">
-            <div className="w-[50%] h-full relative flex items-center justify-center">
+          <div className="w-full h-[70%] relative lg:top-0 top-[15vh] flex items-center justify-center lg:flex-row flex-col">
+            <div className="lg:w-[50%] w-full h-full relative flex items-center justify-center">
               <Image
                 loader={() => (sect1image = sect1image)}
                 src={sect1image}
                 width={0}
                 height={0}
-                className="w-[110%] absolute left-10 top-20 rounded-lg"
+                className="lg:w-[110%] w-[80%] lg:absolute left-10 top-20 rounded-lg"
               />
             </div>
-            <div className="w-[50%] h-full flex flex-col p-10 pl-20 justify-center gap-5 bg-gray-100">
+            <div className="lg:w-[50%] w-[90%] text-center lg:text-start h-full flex flex-col lg:p-10 lg:pl-20 justify-center gap-5 bg-gray-100 relative lg:top-0 top-10">
               <h1 className="text-[25px] font-Comfortaa">{datas.s1h1}</h1>
               <p className="text-[15px] text-gray-500 font-poppins">
                 {datas.s1p1}
