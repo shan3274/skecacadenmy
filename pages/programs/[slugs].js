@@ -219,22 +219,22 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative top-[20vh] lg:-top-20 rounded-lg flex items-center justify-around">
-          <div className="w-[50%] h-full flex flex-col justify-center gap-5 p-10">
-            <h1 className="w-[90%] font-Comfortaa text-[35px]">
+        <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative top-[50vh] lg:-top-20 rounded-lg flex items-center justify-around lg:flex-row flex-col-reverse">
+          <div className="lg:w-[50%] h-full flex flex-col justify-center gap-5 p-10">
+            <h1 className="w-[90%] font-Comfortaa lg:text-[35px] text-[17px]">
               {datas.s2title}
             </h1>
-            <p className="text-[15px] font-poppins text-gray-500 w-[90%]">
+            <p className="lg:text-[15px] text-[13px] font-poppins text-gray-500 w-[90%]">
               {datas.s2p1}
             </p>
           </div>
-          <div className="w-[50%] h-full">
+          <div className="lg:w-[50%] h-full">
             <Image
               loader={() => (sect2image = sect2image)}
               src={sect2image}
               width={0}
               height={0}
-              className="w-full h-full rounded-r-lg"
+              className="w-full  lg:rounded-r-lg"
             />
           </div>
         </div>
