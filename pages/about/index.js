@@ -114,7 +114,7 @@ const index = () => {
           <h1 className="relative top-20 font-Comfortaa text-[40px] after:absolute after:w-[50%] after:left-[25%] after:h-[1px] after:bg-blue-500 after:top-[120%]">
             Academic
           </h1>
-          <div className="w-[90%] min-h-[90vh] flex items-center justify-center flex-wrap gap-2">
+          <div className="w-[90%] min-h-[90vh] flex items-center justify-center flex-wrap gap-2 relative lg:static top-[15vh]">
             <Image
               loader={() => (img = img)}
               src={img}
@@ -125,7 +125,7 @@ const index = () => {
             <div className="w-[600px] h-[60vh] flex flex-col p-10 justify-center gap-5 relative">
               <h1 className="text-[25px] font-Comfortaa">{data?.title}</h1>
 
-              <p className="text-[13px] font-poppins text-gray-500">
+              <p className="text-[13px] font-poppins text-gray-500 lg:line-clamp-none line-clamp-4">
                 {data.paragraph1}
               </p>
 
@@ -171,7 +171,7 @@ const index = () => {
               </svg>
             </div>
           </div>
-          <div className="w-[80%] relative bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
+          <div className="w-[80%] relative lg:top-0 top-10 lg:bottom-20 min-h-[100%] border-t border-t-black border-b border-b-black   bg-white z-[999] flex items-center justify-around flex-wrap gap-5 p-5">
             {program.map((item, key) => {
               return (
                 <button
