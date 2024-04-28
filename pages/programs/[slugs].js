@@ -239,7 +239,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col relative lg:static lg:top-0 top-[70vh] lg:mb-0 mb-[70vh]">
+        <div className="w-full min-h-[65vh] flex items-center justify-center gap-5 flex-col relative lg:static lg:top-0 top-[55vh] lg:mb-0 mb-[40vh]">
           <h1 className="text-[40px] font-Comfortaa">Features</h1>
           <div className="w-[100%] min-h-[60vh] flex items-center justify-center flex-wrap gap-10 mb-10">
             <div className="lg:w-[600px] h-[500px] bg-[#ffe7d7] flex flex-col gap-5 p-5">
