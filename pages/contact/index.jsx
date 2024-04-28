@@ -168,9 +168,9 @@ const index = () => {
   return (
     <div>
       <Header scrollLength={scrollLength} />
-      <div className="w-full min-h-[80vh] flex items-center justify-center relative top-[10rem]  mb-20">
-        <div className="w-[80%] h-[60vh] flex items-center justify-around gap-10">
-          <div className="w-[50%] flex flex-col gap-5">
+      <div className="w-full min-h-[80vh] flex items-center justify-center lg:flex-row flex-col relative top-[10rem]  mb-[60vh]">
+        <div className="lg:w-[80%] h-[60vh] flex items-center justify-around lg:flex-row flex-col gap-10">
+          <div className="lg:w-[50%] flex flex-col gap-5">
             <h1 className="text-[40px] font-Comfortaa">Find us</h1>
             <p className="text-[12px] font-poppins text-gray-500">
               UNAI, ANACIUT POST, VELLORE-632101. <br />
@@ -179,15 +179,14 @@ const index = () => {
             </p>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.526094457245!2d78.96723507518894!3d12.873856587432616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad144bcb1d4297%3A0xafb8d6afb086d35c!2sSree%20Krishna%20College%20of%20Engineering%20(Counseling%20Code%20%3A%201438)!5e0!3m2!1sen!2sin!4v1708443757284!5m2!1sen!2sin"
-              width="600"
-              height="450"
+             
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              className=" h-[40vh] rounded-lg drop-shadow-lg"
+              className="lg:w-[600px] h-[40vh] rounded-lg drop-shadow-lg"
             ></iframe>
           </div>
-          <div className="w-[40%] flex flex-col gap-5  border bg-white h-[60vh] rounded-xl drop-shadow-xl">
+          <div className="lg:w-[40%] w-full flex flex-col gap-5  border bg-white min-h-[60vh] rounded-xl drop-shadow-xl lg:mb-0 mb-[20vh]">
             <div className="w-full h-[15%] border-b flex items-center pl-5">
               <h1 className="font-Comfortaa text-[20px] text-blue-600">
                 Get in touch
@@ -256,7 +255,7 @@ const index = () => {
 
             <button
               onClick={() => uploadData()}
-              className="flex w-[150px] h-[40px] ml-10 text-[14px] items-center justify-center gap-2 bg-blue-600 text-white rounded-xl font-poppins duration-300 hover:scale-105"
+              className="flex w-[150px] h-[40px] ml-10 text-[14px] items-center justify-center gap-2 bg-blue-600 text-white rounded-xl font-poppins duration-300 hover:scale-105 relative"
             >
               Send <IoSend />
             </button>
