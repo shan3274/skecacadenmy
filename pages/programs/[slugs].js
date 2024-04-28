@@ -203,7 +203,7 @@ const Page = () => {
                 className="lg:w-[110%] w-[80%] lg:absolute left-10 top-20 rounded-lg"
               />
             </div>
-            <div className="lg:w-[50%] w-[90%] text-center lg:text-start h-full flex flex-col lg:p-10 lg:pl-20 justify-center gap-5 bg-gray-100 relative lg:top-0 top-10">
+            <div className="lg:w-[50%] w-[90%] text-center lg:text-start h-full flex flex-col lg:p-10 lg:pl-20 justify-center gap-5 bg-gray-100 relative lg:top-0 top-[20vh] ">
               <h1 className="text-[25px] font-Comfortaa">{datas.s1h1}</h1>
               <p className="text-[15px] text-gray-500 font-poppins">
                 {datas.s1p1}
@@ -219,7 +219,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative -top-20 rounded-lg flex items-center justify-around">
+        <div className="w-[80%] h-[50vh] bg-[#d3f8fc] drop-shadow-lg relative top-[20vh] lg:-top-20 rounded-lg flex items-center justify-around">
           <div className="w-[50%] h-full flex flex-col justify-center gap-5 p-10">
             <h1 className="w-[90%] font-Comfortaa text-[35px]">
               {datas.s2title}
