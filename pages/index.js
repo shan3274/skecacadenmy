@@ -1,11 +1,12 @@
-import Header from "@/components/Header";
-
-import Hero from "@/components/Hero";
 import React, { Suspense, useEffect, useState } from "react";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div>
+      <Head>
+        <title>SKC GROUP</title>
+      </Head>
       <Suspense fallback={<div>Loading...</div>}>
         <LazyLoadedComponents />
       </Suspense>
