@@ -1,7 +1,16 @@
 import React, { Suspense, useEffect, useState } from "react";
 import Head from "next/head";
+import * as gtag from "../lib/googleAnalytics";
 
 const index = () => {
+  useEffect(() => {
+    gtag.event({
+      action: "button_click",
+      category: "Engagement",
+      label: "Contact Us Button",
+      value: 1, // Optional numeric value
+    });
+  }, []);
   return (
     <div>
       <Head>
