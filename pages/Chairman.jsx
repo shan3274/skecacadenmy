@@ -16,7 +16,7 @@ const Chairman = () => {
     <div>
       <Header scrollLength={scrollLength} />
       <div className="w-full min-h-screen flex items-center justify-center flex-col gap-10 mb-[20vh]">
-        <h1 className="text-[35px] font-Comfortaa relative top-[15vh]">
+        <h1 className="lg:text-[35px] text-[20px] font-Comfortaa relative top-[15vh]">
           Group Business Profile
         </h1>
         <div className="w-full min-h-[50vh] flex items-center justify-center gap-10 flex-wrap relative top-[15vh]">
@@ -78,7 +78,7 @@ const Chairman = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full min-h-[50vh] flex items-start justify-center gap-x-10 flex-wrap relative top-[20vh]">
+        <div className="w-full min-h-[50vh] flex items-start justify-center gap-x-10 flex-wrap relative top-[20vh] lg:pl-0 pl-10">
           <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3">
             <h1 className="text-[20px] font-Comfortaa w-full">
               Chairman/Managing Trustee
