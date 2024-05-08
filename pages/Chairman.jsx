@@ -78,9 +78,9 @@ const Chairman = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full min-h-[50vh] flex items-center justify-center gap-x-10 flex-wrap relative top-[20vh]">
-          <div className="w-[300px] h-[400px] flex items-center justify-center flex-col gap-3">
-            <h1 className="text-[20px] font-Comfortaa">
+        <div className="w-full min-h-[50vh] flex items-start justify-center gap-x-10 flex-wrap relative top-[20vh]">
+          <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3">
+            <h1 className="text-[20px] font-Comfortaa w-full">
               Chairman/Managing Trustee
             </h1>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
@@ -108,8 +108,37 @@ const Chairman = () => {
               <p>srisairishab@gmail.com</p>
             </div>
           </div>
-          <div className="w-[300px] h-[400px] flex items-center justify-center flex-col gap-3">
-            <h1 className="text-[20px] font-Comfortaa">
+          <div className="w-[400px] h-[500px] flex items-center justify-center flex-col gap-3">
+            <h1 className="text-[20px] font-Comfortaa w-full">
+              SKC GROUP OF INSTITUTIONS
+            </h1>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• SREE KRISHNA COLLEGE OF ENGINEERING</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• SREE KRISHNA ARTS & SCIENCE COLLEGE</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• NAMAKKAL TEACHERS VIDHYASHRAM MATRIC / CBSE SCHOOL</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• SREE KRISHNA IAS ACADEMY</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• MUPPADAI TRAINING ACADEMY</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• CHENNAI IAS ACADEMY</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• NEET and JEE COACHING CENTRE</p>
+            </div>
+            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
+              <p>• SRI KRISHNA MULTI-SPECIALTY HOSPITAL</p>
+            </div>
+          </div>
+          <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3">
+            <h1 className="text-[20px] font-Comfortaa w-full">
               Chairman/Managing Trustee
             </h1>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
@@ -137,37 +166,8 @@ const Chairman = () => {
               <p>srisairishab@gmail.com</p>
             </div>
           </div>
-          <div className="w-[300px] h-[400px] flex items-center justify-center flex-col gap-3">
-            <h1 className="text-[20px] font-Comfortaa">
-              Chairman/Managing Trustee
-            </h1>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <IoPhonePortraitSharp />
-              <p>+9194433 22420</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <CiPhone />
-              <p>0416 2903276 / 0416 2291420</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.sreekrishnaengcollege.com</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <FaYahoo />
-              <p>skce_2008@yahoo.in</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.rishabaautogarage.com</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiMailbox />
-              <p>srisairishab@gmail.com</p>
-            </div>
-          </div>
-          <div className="w-[300px] h-[400px] flex items-center justify-center flex-col gap-3 ">
-            <h1 className="text-[20px] font-Comfortaa">
+          <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3 ">
+            <h1 className="text-[20px] font-Comfortaa w-full">
               Chairman/Managing Trustee
             </h1>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">

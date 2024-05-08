@@ -51,8 +51,10 @@ import { mba } from "@/utils/data";
 import React, { useState } from "react";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import { useRouter } from "next/router";
 
 const Chairperson = () => {
+  const route = useRouter();
   let image = "https://www.sreekrishnaengcollege.com/assets/img/chairman.jpg";
   const [datas, seyDatas] = useState(mba);
   return (
@@ -86,7 +88,10 @@ const Chairperson = () => {
                 OF 2010 AND OFFERS 5 DISCIPLINES OF EDUCATION. WE HAVE 616
                 STUDENTS PRESENTLY STUDYING.
               </p>
-              <button className="w-[150px] h-[40px] relative flex items-center justify-center gap-2 text-[13px] font-poppins bg-blue-500 text-white rounded-full duration-300 hover:scale-105">
+              <button
+                onClick={() => route.push("Chairman")}
+                className="w-[150px] h-[40px] relative flex items-center justify-center gap-2 text-[13px] font-poppins bg-blue-500 text-white rounded-full duration-300 hover:scale-105"
+              >
                 Know more <FaArrowRight size={12} />{" "}
               </button>
             </div>
