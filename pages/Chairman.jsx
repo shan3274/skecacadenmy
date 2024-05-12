@@ -137,62 +137,33 @@ const Chairman = () => {
               <p>• SRI KRISHNA MULTI-SPECIALTY HOSPITAL</p>
             </div>
           </div>
-          <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3">
+          <div className="w-[400px] h-[500px] flex items-center justify-center flex-col gap-3">
             <h1 className="text-[20px] font-Comfortaa w-full">
-              Chairman/Managing Trustee
+              GROUP OF COMPANIES
             </h1>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <IoPhonePortraitSharp />
-              <p>+9194433 22420</p>
+              <p>• Sri Kamadhenu Bus Service</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <CiPhone />
-              <p>0416 2903276 / 0416 2291420</p>
+              <p>• Sri Kamadhenu Aauto Parts</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.sreekrishnaengcollege.com</p>
+              <p>• Raja Stickers</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <FaYahoo />
-              <p>skce_2008@yahoo.in</p>
+              <p>• Rishab Travels</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.rishabaautogarage.com</p>
+              <p>• Rishab and Company (logistics )</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiMailbox />
-              <p>srisairishab@gmail.com</p>
-            </div>
-          </div>
-          <div className="w-[400px] h-[400px] flex items-center justify-center flex-col gap-3 ">
-            <h1 className="text-[20px] font-Comfortaa w-full">
-              Chairman/Managing Trustee
-            </h1>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <IoPhonePortraitSharp />
-              <p>+9194433 22420</p>
+              <p>• Sri Sai Rishab Auto Garage</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <CiPhone />
-              <p>0416 2903276 / 0416 2291420</p>
+              <p>• Rishab Parking Point</p>
             </div>
             <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.sreekrishnaengcollege.com</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <FaYahoo />
-              <p>skce_2008@yahoo.in</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiWorld />
-              <p>www.rishabaautogarage.com</p>
-            </div>
-            <div className="w-full flex gap-2 items-center text-[15px] text-gray-500">
-              <GiMailbox />
-              <p>srisairishab@gmail.com</p>
+              <p>• Jai Springs</p>
             </div>
           </div>
         </div>

@@ -175,11 +175,11 @@ const index = () => {
             <p className="text-[12px] font-poppins text-gray-500">
               UNAI, ANACIUT POST, VELLORE-632101. <br />
               9894216849, 9443322420, 90474 31438, 04162 903276
-              <br /> info@sreekrishnaengcollege.com
+              <br /> info@sreekrishnaengcollege.com <br/>
+              krishnaeducationalworld@gmail.com
             </p>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.526094457245!2d78.96723507518894!3d12.873856587432616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad144bcb1d4297%3A0xafb8d6afb086d35c!2sSree%20Krishna%20College%20of%20Engineering%20(Counseling%20Code%20%3A%201438)!5e0!3m2!1sen!2sin!4v1708443757284!5m2!1sen!2sin"
-             
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3889.0193378826903!2d78.951807!3d12.906477999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU0JzIzLjMiTiA3OMKwNTcnMDYuNSJF!5e0!3m2!1sen!2sin!4v1715348091646!5m2!1sen!2sin"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
