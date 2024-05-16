@@ -173,9 +173,9 @@ const index = () => {
           <div className="lg:w-[50%] flex flex-col gap-5">
             <h1 className="text-[40px] font-Comfortaa">Find us</h1>
             <p className="text-[12px] font-poppins text-gray-500">
-              UNAI, ANACIUT POST, VELLORE-632101. <br />
+              Kandaneri,Near pallikonda Toll Gate <br />
               9894216849, 9443322420, 90474 31438, 04162 903276
-              <br /> info@sreekrishnaengcollege.com <br/>
+              <br /> info@sreekrishnaengcollege.com <br />
               krishnaeducationalworld@gmail.com
             </p>
             <iframe

@@ -3,7 +3,7 @@ export const trustPageData = {
     "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ftrust1.jpeg?alt=media&token=b53928a6-aaff-462f-9371-ecf9e0565f50",
   image2:
     "https://firebasestorage.googleapis.com/v0/b/skce-fbc64.appspot.com/o/img%2Ftrsut2.jpeg?alt=media&token=49fb5f3e-4054-4ed1-97f2-b94b2c7e8fab",
-  title: "Om Sri Atchutha Kamala Educational Trust",
+  title: "Om Sri Atchutha Kamala Educational Devlopment Trust",
 
   heading1: "THIS DEED OF TRUST",
   smallHeading1: "made on this 9th day of April 2024 at Vellore(TRUST DEED By)",
