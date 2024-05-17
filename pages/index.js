@@ -31,6 +31,7 @@ const LazyLoadedComponents = () => (
     <LazyLoadComponent component={() => import("@/components/Chairperson")} />
     <LazyLoadComponent component={() => import("@/components/Programs")} />
     <LazyLoadComponent component={() => import("@/components/Help")} />
+    <LazyLoadComponent component={() => import("@/components/Contact")} />
     <LazyLoadComponent component={() => import("@/components/Footer")} />
   </>
 );
