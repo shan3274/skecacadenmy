@@ -37,7 +37,7 @@ const Contact = () => {
             <p className="text-[13px]">Mr. S. SINGARAVEL, M.E., AP/CIVIL</p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <p className="text-[13px]"></p>
+            <h1 className="text-[20px] font-Comfortaa"></h1>
             <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9003058900</p>
             <p className="text-[13px] mt-10"></p>
