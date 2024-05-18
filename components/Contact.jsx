@@ -35,21 +35,16 @@ const Contact = () => {
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">PLACEMENT OFFICER</h1>
             <p className="text-[13px]">Mr. S. SINGARAVEL, M.E., AP/CIVIL</p>
-            <p className="text-[13px]">
-              C/ST/SCC/SCA SCHOLARSHIP NODAL OFFICER{" "}
-            </p>
             <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA., </p>
             <p className="text-[13px]">K SHILPA, M.E. (STRUCTURAL ENGG.) </p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <h1 className="text-[20px] font-Comfortaa">Number</h1>
             <p className="text-[13px]">: 9786462150</p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9003058900</p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
             <p className="text-[13px] mt-10"></p>
-            <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9003058900</p>
@@ -102,6 +97,7 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
+
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -116,43 +112,64 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
+
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
-              NAN MUDHALVAN SCHEME SPOC
+              PUDHUMAIPPEN SCHEME NODAL OFFICER
             </h1>
-            <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
+            <p className="text-[13px]">
+              Mr. S. BASKARAN, MSc., MPhil., B.Ed., AP/MATHS{" "}
+            </p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <p className="text-[13px]">: 9786462150</p>
+            <p className="text-[13px]">: 7200153089</p>
+            <p className="text-[13px]"></p>
+          </div>
+        </div>
+
+        <div className="w-full min-h-[40vh] flex items-center justify-around">
+          <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
+            <h1 className="text-[20px] font-Comfortaa">
+              ANTI RAGGING COMMITTEE
+            </h1>
+            <p className="text-[13px]">
+              Mrs. K SHILPA, M.E. (STRUCTURAL ENGG.){" "}
+            </p>
+            <p className="text-[13px]">
+              Mr. T. NARESH, M.Sc., M.Phil., AP/ CHEMISTRY{" "}
+            </p>
+          </div>
+          <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
+            <p className="text-[13px]">: 8825538889</p>
+            <p className="text-[13px]"></p>
+            <p className="text-[13px]">: 8680804798</p>
             <p className="text-[13px]"></p>
           </div>
         </div>
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
-            <h1 className="text-[20px] font-Comfortaa">
-              NAN MUDHALVAN SCHEME SPOC
-            </h1>
-            <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
+            <h1 className="text-[20px] font-Comfortaa">GOVERNING COUNCIL</h1>
+            <p className="text-[13px]">Mis. K. BUVANESWARI, M.E., AP/CIVIL</p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <p className="text-[13px]">: 9786462150</p>
+            <p className="text-[13px]">: 6380674625</p>
             <p className="text-[13px]"></p>
           </div>
         </div>
+
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
-              NAN MUDHALVAN SCHEME SPOC
+              DISCIPLINE AND WELFARE COMMITTEE
             </h1>
-            <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
+            <p className="text-[13px]">Mr. R. BALAMURUGAN, M.E., HOD/MECH</p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <p className="text-[13px]">: 9786462150</p>
+            <p className="text-[13px]">: 9943068618</p>
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //
       </div>
     </div>
   );
