@@ -57,9 +57,7 @@ const Contact = () => {
         </div>
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
-            <h1 className="text-[20px] font-Comfortaa">
-              BC/MBC SCHOLARSHIP NODAL OFFICER
-            </h1>
+            <h1 className="text-[20px] font-Comfortaa"></h1>
             <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
@@ -68,7 +66,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //SSP PORTAL NODAL OFFICER
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -81,7 +78,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //UMIS PORTAL NODAL OFFICER
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -94,7 +90,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //DOTE ENGINEERING SCHOLARSHIP NODAL OFFICER
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -107,7 +102,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        // NAN MUDHALVAN SCHEME SPOC
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -122,7 +116,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //PUDHUMAIPPEN SCHEME NODAL OFFICER
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -135,7 +128,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //GOVERNING COUNCIL
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -148,7 +140,6 @@ const Contact = () => {
             <p className="text-[13px]"></p>
           </div>
         </div>
-        //DISCIPLINE AND WELFARE COMMITTEE
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
