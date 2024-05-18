@@ -28,39 +28,50 @@ const Contact = () => {
             <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
-            <p className="text-[13px]">: 9003058900</p>
+            <p className="text-[13px]">: 8825538889</p>
           </div>
         </div>
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">PLACEMENT OFFICER</h1>
             <p className="text-[13px]">Mr. S. SINGARAVEL, M.E., AP/CIVIL</p>
-            <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA., </p>
-            <p className="text-[13px]">K SHILPA, M.E. (STRUCTURAL ENGG.) </p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <p className="text-[13px]">: 9786462150</p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9003058900</p>
             <p className="text-[13px]"></p>
             <p className="text-[13px]"></p>
             <p className="text-[13px] mt-10"></p>
-            <p className="text-[13px]"></p>
-            <p className="text-[13px]"></p>
-            <p className="text-[13px]">: 9003058900</p>
           </div>
         </div>
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
-            <h1 className="text-[20px] font-Comfortaa"></h1>
+            <h1 className="text-[20px] font-Comfortaa">
+              SC/ST/SCC/SCA SCHOLARSHIP NODAL OFFICER
+            </h1>
             <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
-            <h1 className="text-[20px] font-Comfortaa">Number</h1>
+            <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9786462150</p>
             <p className="text-[13px]"></p>
           </div>
         </div>
+
+        <div className="w-full min-h-[40vh] flex items-center justify-around">
+          <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
+            <h1 className="text-[20px] font-Comfortaa">
+              BC/MBC SCHOLARSHIP NODAL OFFICER
+            </h1>
+            <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA.,</p>
+          </div>
+          <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
+            <p className="text-[13px]"></p>
+            <p className="text-[13px]">: 9786462150</p>
+            <p className="text-[13px]"></p>
+          </div>
+        </div>
+
         <div className="w-full min-h-[40vh] flex items-center justify-around">
           <div className="w-[300px]  flex flex-col items-start justify-center gap-3">
             <h1 className="text-[20px] font-Comfortaa">
@@ -69,6 +80,7 @@ const Contact = () => {
             <p className="text-[13px]">Mr. M KALAINESAN, M.E(PED), MBA., </p>
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
+            <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9786462150</p>
             <p className="text-[13px]"></p>
           </div>
