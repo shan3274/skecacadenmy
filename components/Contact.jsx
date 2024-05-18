@@ -38,9 +38,8 @@ const Contact = () => {
           </div>
           <div className="w-[200px]  flex flex-col items-start justify-center gap-3">
             <p className="text-[13px]"></p>
+            <p className="text-[13px]"></p>
             <p className="text-[13px]">: 9003058900</p>
-            <p className="text-[13px]"></p>
-            <p className="text-[13px]"></p>
             <p className="text-[13px] mt-10"></p>
           </div>
         </div>
