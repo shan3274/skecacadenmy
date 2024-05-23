@@ -4,24 +4,20 @@ import { IoCloseCircleSharp } from "react-icons/io5";
 const Helpmodal = ({ category, close, setClose }) => {
   const email = {
     title: "Email",
-    email1: "abc1@example.com",
-    email2: "abc2@example.com",
-    email3: "abc3@example.com",
-    email4: "abc4@example.com",
+    email1: "info@sreekrishnaengcollege.com",
+    email2: "krishnaeducationalworld@gmail.com",
   };
   const phone = {
     title: "Phone",
-    phone1: "000 000 0000",
-    phone2: "000 000 0000",
-    phone3: "000 000 0000",
-    phone4: "000 000 0000",
+    phone1: "VICE PRINCIPAL &PLACEMENT OFFICER: 9786462150",
+    phone2: "CEO: M.J. SURESH KUMAR : 9003058900",
+    phone3: "K SHILPA, M.E. (STRUCTURAL ENGG.) : 8825538889",
+    phone4: "Mr. S. SINGARAVEL, M.E., AP/CIVIL : 9003058900",
+    phone4: "Mr. M KALAINESAN, M.E(PED), MBA. : 9786462150",
   };
   const address = {
     title: "Address",
-    address1: "address will be updated soon",
-    address2: "address will be updated soon",
-    address3: "address will be updated soon",
-    address4: "address will be updated soon",
+    address1: "Kandaneri,Near pallikonda Toll Gate",
   };
   return (
     <div className="w-full h-[50vh] fixed bottom-0 left-0 bg-[#d0d0d0] z-[9999999] rounded-t-xl drop-shadow-2xl border">
